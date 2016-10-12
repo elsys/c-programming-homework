@@ -6,4 +6,5 @@ int main()
 	scanf("%c",&c);
 	c='z'-(c-'a');
 	printf("Symmetric letter - %c\n",c);
+	return 0;
 }
