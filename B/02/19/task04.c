@@ -12,14 +12,14 @@ char opposite_char(char c)
 {
   if((c >= 'a') && (c <= 'z'))
   {
-    int middle = ('a' +(('z' - 'a')/2);
+    int middle = ('a' +(('z' - 'a')/2));
     char opposite = middle - c + middle + 1;
     return opposite;
   }
 
   if((c >= 'A') && (c <= 'Z'))
   {
-    int middle = ('A' +(('Z' - 'A')/2);
+    int middle = ('A' +(('Z' - 'A')/2));
     char opposite = middle - c + middle + 1;
     return opposite;
   }

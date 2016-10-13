@@ -9,11 +9,11 @@ int main()
   {
     if(a > c)
     {
-     printf("%f\n", a);
-    }else printf("%f\n", c);
+     printf("%.1f\n", a);
+    }else printf("%.1f\n", c);
   }else if(b > c)
         {
-	 printf("%f\n", b);
-        }else printf("%f\n", c);
+	 printf("%.1f\n", b);
+        }else printf("%.1f\n", c);
  return 0;
 }
