@@ -22,4 +22,6 @@ int main()
 	max=c;
 	};
 	printf("%.1f",max);
+	return 0;
 	}
+

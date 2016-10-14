@@ -24,6 +24,7 @@
 		{printf("nine");}
 		if(n==10)
 		{printf("ten");}
+		return 0;
 		}
 			
 

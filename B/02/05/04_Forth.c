@@ -14,7 +14,7 @@ int main()
 	ch1=122-ch;
 	printf("%c",97+ch1);
 	    };
-
-}
+	return 0;
+	}
 
 	

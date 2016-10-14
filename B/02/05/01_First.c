@@ -9,4 +9,5 @@ int main(){
 	t=n*n*n;
 	printf("%d\n", b);
 	printf("%d", t);
+	return 0;
 	}
