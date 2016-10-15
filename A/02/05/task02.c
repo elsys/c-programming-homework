@@ -9,12 +9,12 @@ int main()
    scanf("%f",&c);
 
    if(a>b && a>c){
-    printf("%f\n",a);
+    printf("%.2f\n",a);
    }
    if(b>a && b>c){
-    printf("%f\n",b);
+    printf("%.2f\n",b);
    }
    if(c>a && c>b){
-    printf("%f\n",c);
+    printf("%.2f\n",c);
    }
 }
