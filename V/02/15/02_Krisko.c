@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-void main()
+int main()
 {
 
   float k,l,p,mit,lol,high ;
