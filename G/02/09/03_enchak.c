@@ -5,26 +5,22 @@ int main()
 {
  int n;
 
- printf("vavedi chislo");
+ printf("Enter a digit:");
  scanf("%d",&n);
 
-if(n==1){printf("one");}
-
-if(n==2){printf("two");}
-
-if(n==3){printf("three");}
-
-if(n==4){printf("four");}
-
-if(n==5){printf("five");}
-
-if(n==6){printf("six");}
-
-if(n==7){printf("seven");}
-
-if(n==8){printf("eight");}
-
-if(n==9){printf("nine");}
-
+switch( n ) 
+{
+case 0: printf("zero");break;
+case 1: printf("one"); break;
+case 2: printf("two"); break;
+case 3: printf("three"); break;
+case 4: printf("four"); break;
+case 5: printf("five"); break;
+case 6: printf("six"); break;
+case 7: printf("seven"); break;
+case 8: printf("eight"); break;
+case 9: printf("nine"); break;
+default:printf("not a digit");
+}
 return 0;
 }
