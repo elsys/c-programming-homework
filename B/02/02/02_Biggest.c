@@ -9,13 +9,13 @@ int main()
 
 	if(b > c)
 	{
-		if(b > a) printf("%f",b);
-		else printf("%f",a);
+		if(b > a) printf("%.1f",b);
+		else printf("%.1f",a);
 	}
 	else
 	{
-		if(c > a) printf("%f",c);
-		else printf("%f",a);
+		if(c > a) printf("%.1f",c);
+		else printf("%.1f",a);
 	}
 return 0;
 }
