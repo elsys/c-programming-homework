@@ -10,6 +10,6 @@ int main()
     if(big<fl)big=fl;
     scanf("\n%f",&fl);
     if(big<fl)big=fl;
-    printf("%f",big);
+    printf("%f.1",big);
     return 0;
 }
