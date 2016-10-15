@@ -14,7 +14,7 @@ int main(){
           i++;
     }while(i < n - 1);
 
-    printf("\n%.2f\n", max);
+    printf("\n%.1f\n", max);
 
     return 0;
 }
