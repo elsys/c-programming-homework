@@ -10,7 +10,7 @@ int main()
 	if(b > c)
 	{
 		if(b > a) printf("%.1f",b);
-		else printf(".1%f",a);
+		else printf("%.1f",a);
 	}
 	else
 	{
