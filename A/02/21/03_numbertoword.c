@@ -1,18 +1,17 @@
 #include <stdio.h>
 int main(){	int y;
-		printf("\tinput number from 0 to 9\n");
 		scanf("%d",&y);
 		switch(y){
-			case 0:printf("\tzero\n");break;
-			case 1:printf("\tone\n");break;
-			case 2:printf("\ttwo\n");break;
-			case 3:printf("\tthree\n");break;
-			case 4:printf("\tfour\n");break;
-			case 5:printf("\tfive\n");break;
-			case 6:printf("\tsix\n");break;
-			case 7:printf("\tseven\n");break;
-			case 8:printf("\teight\n");break;
-			case 9:printf("\tnine\n");break;
+			case 0:printf("zero\n");break;
+			case 1:printf("one\n");break;
+			case 2:printf("two\n");break;
+			case 3:printf("three\n");break;
+			case 4:printf("four\n");break;
+			case 5:printf("five\n");break;
+			case 6:printf("six\n");break;
+			case 7:printf("seven\n");break;
+			case 8:printf("eight\n");break;
+			case 9:printf("nine\n");break;
 		}
 return 0;
 }
