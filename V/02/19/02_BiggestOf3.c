@@ -16,22 +16,22 @@ int main()
 	{
 		if(nmb1>nmb3)
 		{
-			printf("Largest:%.1f\n", nmb1);		
+			printf("%.1f\n", nmb1);		
 		}
 		else
 		{
-			printf("Largest:%.1f\n", nmb3);
+			printf("%.1f\n", nmb3);
 		}
 	}
 	else
 	{
 		if(nmb2>nmb3)
 		{
-			printf("Largest:%.1f\n", nmb2);
+			printf("%.1f\n", nmb2);
 		}
 		else
 		{
-			printf("Largest:%.1f\n", nmb3);
+			printf("%.1f\n", nmb3);
 		}
 	}
 return 0;
