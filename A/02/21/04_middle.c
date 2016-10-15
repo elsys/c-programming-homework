@@ -1,10 +1,9 @@
 #include<stdio.h>
 int main(){
-char r,k,f;
-	printf("\tinput small english letter\n");
+	char r,k,f;
 	scanf("%c",&r);
 	k=r-'a';
 	f='z'-k;
-	printf("\t%c\n",f);
+	printf("%c\n",f);
 return 0;
 }
