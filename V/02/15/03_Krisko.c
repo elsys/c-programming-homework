@@ -1,15 +1,8 @@
 #include<stdio.h>
-
 int main(){
-
     int number;
-
-
-    printf("Enter any integer: ");
     scanf("%d",&number);
-
-
-         switch(number){
+     switch(number){
              case 0: printf("zero\n"); break;
              case 1:  printf("one\n"); break;
              case 2:printf("two\n"); break;
@@ -20,7 +13,6 @@ int main(){
              case 7:  printf("seven\n"); break;
              case 8: printf("eight\n"); break;
              case 9: printf("nine\n"); break;
-
          }
          return 0;
     }
