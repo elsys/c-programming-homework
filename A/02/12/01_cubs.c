@@ -6,5 +6,6 @@ int main()
   scanf("%d",&input);
   kvadratwe=input*input;
   kubwe=kvadratwe*input;
-  printf("%d\n%d\n",kvadratwe,kubwe);
+  printf("\n%d",kvadratwe);
+  printf("\n%d",kubwe);
 }
