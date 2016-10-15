@@ -2,7 +2,6 @@
 int main()
 {
 	int a;
-	printf("Input a one-digit number:");
 	scanf("%d",&a);
 	switch(a)
 	{
@@ -16,7 +15,6 @@ int main()
 		case 7:printf("seven\n");break;
 		case 8:printf("eight\n");break;
 		case 9:printf("nine\n");break;
-		default:printf("That is not a one-digit number!\n");break;
 	}
 	return 0;
 }
