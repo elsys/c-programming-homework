@@ -2,9 +2,7 @@
 int main()
 {
 	int a;
-
 	scanf("%d",&a);
-
 	if(a==0)printf("zero\n");
 	if(a==1)printf("one\n");
 	if(a==2)printf("two\n");
