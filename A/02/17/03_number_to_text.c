@@ -4,7 +4,7 @@ char *digit_to_word(int n);
 
 int main()
 {
-    int n = 0;
+    int n = -1;
     scanf("%d", &n);
 
     printf("%s\n", digit_to_word(n));

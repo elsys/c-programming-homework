@@ -11,7 +11,7 @@ int main()
 
     float result = get_biggest_of_three(a, b, c);
 
-    printf("%f\n", result);
+    printf("%.1f\n", result);
     return 0;
 }
 
