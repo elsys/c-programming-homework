@@ -1,7 +1,6 @@
 #include<stdio.h>
 int main(){
 int num;
-printf("DAI NUMMMMMBERRR\n");
 do{
 scanf("%d", &num);
 }while(num<0||num>9);
