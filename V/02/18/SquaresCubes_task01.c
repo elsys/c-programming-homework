@@ -10,5 +10,4 @@ int main()
 
         printf("\n Square of %d is ",sq);
         printf("\n Cube of %d is\n ",cb);
-}
-~   
+}   
