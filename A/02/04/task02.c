@@ -9,7 +9,7 @@ int main() {
     scanf("%f", &b);
     scanf("%f", &c);
 
-    printf("%f\n", get_biggest(a, b, c));
+    printf("%.1f\n", get_biggest(a, b, c));
 
     return 0;
 }
