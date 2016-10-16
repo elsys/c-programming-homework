@@ -3,15 +3,13 @@
 int main(){
 
 	float a, b, c;
-	scanf("%f", &a);
-	scanf("%f", &b);
-	scanf("%f", &c);
+	scanf("%f %f %f", &a, &b, &c);
 	if(a>=b && a>=c)
-		printf("%f", a);
+		printf("%.1f", a);
 	if(b>=a && b>=c)
-		printf("%f", b);
+		printf("%.1f", b);
 	if(c>=a && c>=b)
-		printf("%f", c);
+		printf("%.1f", c);
 
 	return 0;
 }
