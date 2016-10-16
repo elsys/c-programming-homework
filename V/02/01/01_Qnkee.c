@@ -3,11 +3,10 @@
 int main(){
 
  	int a,b,c;
-	printf("Input a number");
 	scanf("%d", &a);
 	b=a*a;
 	c=a*a*a;
-	printf("%d\n", b);
-	printf("%d\n", c);
+	printf("%d", b);
+	printf("%d", c);
 return 0;
 }
