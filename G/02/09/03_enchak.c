@@ -20,7 +20,7 @@ case 6: printf("six"); break;
 case 7: printf("seven"); break;
 case 8: printf("eight"); break;
 case 9: printf("nine"); break;
-default:printf("not a digit");break:
+default:printf("not a digit");break;
 }
 return 0;
 }
