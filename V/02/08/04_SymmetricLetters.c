@@ -3,85 +3,84 @@
 int main()
 {
         char bkv;
-        printf("Enter a letter:");
         scanf("%ch",&bkv);
         if(bkv=='a'){
-                printf("Opposite: z");
+                printf("z");
         }
-        if(bkv=='b'){
-                printf("Opposite: y");
+        else if(bkv=='b'){
+                printf("y");
         }
-        if(bkv=='c'){
-                printf("Opposite: x");
+        else if(bkv=='c'){
+                printf("x");
         }
-        if(bkv=='d'){
-                printf("Opposite: w");
+        else if(bkv=='d'){
+                printf("w");
         }
-        if(bkv=='e'){
-                printf("Opposite: v");
+        else if(bkv=='e'){
+                printf("v");
         }
-        if(bkv=='f'){
-                printf("Opposite: u");
+        else if(bkv=='f'){
+                printf("u");
         }
-        if(bkv=='g'){
-                printf("Opposite: t");
+        else if(bkv=='g'){
+                printf("t");
         }
-        if(bkv=='h'){
-                printf("Opposite: s");
+        else if(bkv=='h'){
+                printf("s");
         }
-        if(bkv=='i'){
-                printf("Opposite: r");
+        else if(bkv=='i'){
+                printf("r");
         }
-        if(bkv=='j'){
-                printf("Opposite: q");
+        else if(bkv=='j'){
+                printf("q");
         }
-        if(bkv=='k'){
-                printf("Opposite: p");
+        else if(bkv=='k'){
+                printf("p");
         }
-        if(bkv=='l'){
-                printf("Opposite: o");
+        else if(bkv=='l'){
+                printf("o");
         }
-        if(bkv=='m'){
-                printf("Opposite: n");
+        else if(bkv=='m'){
+                printf("n");
         }
-        if(bkv=='n'){
-                printf("Opposite: m");
+        else if(bkv=='n'){
+                printf("m");
         }
-        if(bkv=='o'){
-                printf("Opposite: l");
+        else if(bkv=='o'){
+                printf("l");
         }
-        if(bkv=='p'){
-                printf("Opposite: k");
+        else if(bkv=='p'){
+                printf("k");
         }
-        if(bkv=='q'){
-                printf("Opposite: j");
+        else if(bkv=='q'){
+                printf("j");
         }
-        if(bkv=='r'){
-                printf("Opposite: i");
+        else if(bkv=='r'){
+                printf("i");
         }
-        if(bkv=='s'){
-                printf("Opposite: h");
+        else if(bkv=='s'){
+                printf("h");
         }
-        if(bkv=='t'){
-                printf("Opposite: g");
+        else if(bkv=='t'){
+                printf("g");
         }
-        if(bkv=='u'){
-                printf("Opposite: f");
+        else if(bkv=='u'){
+                printf("f");
         }
-        if(bkv=='v'){
-                printf("Opposite: e");
+        else if(bkv=='v'){
+                printf("e");
         }
-        if(bkv=='w'){
-                printf("Opposite: d");
+        else if(bkv=='w'){
+                printf("d");
         }
-        if(bkv=='x'){
-                printf("Opposite: c");
+        else if(bkv=='x'){
+                printf("c");
         }
-        if(bkv=='y'){
-                printf("Opposite: b");
+        else if(bkv=='y'){
+                printf("b");
         }
-        if(bkv=='z'){
-                printf("Opposite: a");
+        else if(bkv=='z'){
+                printf("a");
         }
         return 0;
 }
