@@ -1,6 +1,6 @@
 # Assignment report
 ```
-Points earned: 10
+Points earned: 13
 Maximum points: 20
 ```
 
@@ -15,10 +15,24 @@ https://github.com/elsys/c-programming-homework/tree/master/A/02#%D0%97%D0%B0%D0
 
 ### Testcase 1 passed
 
-## Task 3: Number to Text [0/5 points]
+## Task 3: Number to Text [3/5 points]
 https://github.com/elsys/c-programming-homework/tree/master/A/02#%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-3---number-to-text
 
-### Not submitted
+Compiled with warning(s)
+```
+03_Homework.c:7:5: warning: implicitly declaring library function 'scanf' with type 'int (const char *restrict, ...)' [-Wimplicit-function-declaration]
+    scanf("%d",&numb);
+    ^
+03_Homework.c:7:5: note: include the header <stdio.h> or explicitly provide a declaration for 'scanf'
+03_Homework.c:9:16: warning: implicitly declaring library function 'printf' with type 'int (const char *, ...)' [-Wimplicit-function-declaration]
+    if(numb==0)printf("zero");
+               ^
+03_Homework.c:9:16: note: include the header <stdio.h> or explicitly provide a declaration for 'printf'
+2 warnings generated.
+
+```
+### Testcase 1 passed
+### Testcase 2 passed
 
 ## Task 4: Symmetric letters [0/5 points]
 https://github.com/elsys/c-programming-homework/tree/master/A/02#%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-4---symmetric-letters
