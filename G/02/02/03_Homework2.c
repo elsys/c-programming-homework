@@ -5,7 +5,7 @@ int main()
     int numb;
     do{
     scanf("%d",&numb);
-    }while(-1>numb||numb>10);
+    }while(0<numb||numb>9);
     if(numb==0)printf("zero");
     if(numb==1)printf("one");
     if(numb==2)printf("two");

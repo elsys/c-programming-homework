@@ -8,7 +8,7 @@ int main()
 	if (t==2)
  		printf("two");
 	if (t==3)
- 		printf("tree");
+ 		printf("three");
 	if (t==4)
  		printf("four");
 	if (t==5)

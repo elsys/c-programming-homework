@@ -4,13 +4,12 @@ int main()
         int m;
         do
         {
-        printf("Input Number:");
         scanf("%d",&m);
         }while(0>m || 9<m);
         switch(m)
         {
         case 0:
-        printf("zern\n");break;
+        printf("zero\n");break;
 	case 1:
         printf("one\n");break;
         case 2:
