@@ -1,42 +1,42 @@
 #include <stdio.h>
 int main()
 {   char e;
-    scanf("%s",&a);
-if(a==97)
+    scanf("%s",&e);
+if(e==97)
 	printf("\nz");
-if(a==98)
+if(e==98)
 	printf("\ny");
-if(a==99)
+if(e==99)
 	printf("\n x");
-if(a==100)
+if(e==100)
 	printf("\nw");
-if(a==101)
+if(e==101)
 	printf("\nv");
-if(a==102)
+if(e==102)
 	printf("\nu");
-if(a==103)
+if(e==103)
 	printf("\nt");
-if(a==104)
+if(e==104)
 	printf("\ns");
-if(a==105)
+if(e==105)
 	printf("\nr");
-if(a==106)
+if(e==106)
 	printf("\nq");
-if(a==107)
+if(e==107)
 	printf("\np");
-if(a==108)
+if(e==108)
 	printf("\no");
-if(a==109)
+if(e==109)
 	printf("\nn");
-if(a==110)
+if(e==110)
 	printf("\nm");
-if(a==111)
+if(e==111)
 	printf("\nl");
-if(a==112)
+if(e==112)
 	printf("\nk");
-if(a==113)
+if(e==113)
 	printf("\nj");
-if(a==114)
+if(e==114)
 	printf("\ni");
 if(a==115)
 	printf("\nh");
