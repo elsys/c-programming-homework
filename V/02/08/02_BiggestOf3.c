@@ -13,7 +13,7 @@ int main()
                 printf("%1.f",b);
         }
         else if(c>a && c>b){
-                printf("%f",c);
+                printf("1.%f",c);
         }
         return 0;
 }
