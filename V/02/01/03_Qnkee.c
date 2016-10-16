@@ -2,10 +2,7 @@
 
 int main(){
 	int a;
-	do{
-	printf("\n Enter a number(0-9)\n");
 	scanf("%d",&a);
-	}while(a<0 && a>9);
 	switch(a){
 	case 0:printf("\n Zero");break;
 	case 1:printf("\n One");break;
@@ -16,7 +13,7 @@ int main(){
 	case 6:printf("\n Six");break;
 	case 7:printf("\n Seven");break;
 	case 8:printf("\n Eight");break;
-	case 9:printf("\n Nine");break;
-	}
+	case 9:printf("\n Nine");break;	
+}
 return 0;
 } 

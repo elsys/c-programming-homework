@@ -4,8 +4,6 @@
 int main()
 {
  int n;
-
- printf("Enter a digit:");
  scanf("%d",&n);
 
 switch( n ) 
