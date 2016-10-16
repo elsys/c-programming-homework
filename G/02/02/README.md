@@ -1,6 +1,6 @@
 # Assignment report
 ```
-Points earned: 13
+Points earned: 18
 Maximum points: 20
 ```
 
@@ -34,7 +34,9 @@ Compiled with warning(s)
 ### Testcase 1 passed
 ### Testcase 2 passed
 
-## Task 4: Symmetric letters [0/5 points]
+## Task 4: Symmetric letters [5/5 points]
 https://github.com/elsys/c-programming-homework/tree/master/A/02#%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-4---symmetric-letters
 
-### Not submitted
+### Testcase 1 passed
+### Testcase 2 passed
+### Testcase 3 passed
