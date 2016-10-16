@@ -2,7 +2,6 @@
 int main() 
 {
 int n;
-printf("\n Include number:");
 scanf("%d",&n);
 if(n==0)printf("\n zero");
 if(n==1)printf("\n one");
