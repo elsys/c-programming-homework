@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-   int n;
+   int x;
    scanf("%d", &x);
    switch(x)
 	{
