@@ -2,11 +2,10 @@
 int main ()
 {
 int m,d,f;
-printf("\nInput number");
 scanf("%d",&m);
 d=m*m;
 f=m*m*m;
-printf("\n %d",d);
-printf("\n %d",f);
+printf("\n %d\n",d);
+printf("\n %d\n",f);
 return 0;
 }
