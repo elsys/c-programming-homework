@@ -9,6 +9,6 @@ if(a>k){
 k=a;
 }
 }
-printf("%f\n", k);
+printf("%.1f\n", k);
 return 0;
 }
