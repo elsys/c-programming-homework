@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void main()
+int main()
 {
         float o,t,th;
         printf("\nEnter three nubers:");
