@@ -2,10 +2,7 @@
 int main()
 {  
   int a;
-   do {
- 	 printf("\n Input a number:");
  	 scanf("%d",&a);
-   } while (a>9 || a<-9);
         if (a==1) printf("\n one\n");
         if (a==2) printf("\n two\n");
         if (a==3) printf("\n three\n");
