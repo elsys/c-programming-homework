@@ -7,6 +7,6 @@ int main(){
 		if(max<a) max=a;
 		i++;
 	}while (i<=3);
-	printf("\n %.1f", max);
+	printf("%.1f\n", max);
 return 0;
 }
