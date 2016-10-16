@@ -1,22 +1,33 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main()
 {
     int n;
-    do{
-    printf("Enter a number:\n");
     scanf("%d",&n);
-    }while(n<0 || n>9);
-    if(n==0)printf("zero");
-    else if(n==1)printf("one");
-    else if(n==2)printf("two");
-    else if(n==3)printf("three");
-    else if(n==4)printf("four");
-    else if(n==5)printf("five");
-    else if(n==6)printf("six");
-    else if(n==7)printf("seven");
-    else if(n==8)printf("eight");
-    else if(n==9)printf("nine");
+    switch(n)
+    {
+        case 0:printf("\n zero");
+        break;
+        case 1:printf("\n one");
+        break;
+        case 2:printf("\n two");
+        break;
+        case 3:printf("\n three");
+        break;
+        case 4:printf("\n four");
+        break;
+        case 5:printf("\n five");
+        break;
+        case 6:printf("\n six");
+        break;
+        case 7:printf("\n seven");
+        break;
+        case 8:printf("\n eight");
+        break;
+        case 9:printf("\n nine");
+        break;
+    }
 
 
 }
