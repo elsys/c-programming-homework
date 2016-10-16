@@ -30,4 +30,5 @@ scanf("%s",&s);
     if(s==120)printf("\nc");
     if(s==121)printf("\nb");
     if(s==122)printf("\na");
+    return 0;
 }
