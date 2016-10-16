@@ -3,9 +3,9 @@
 int main()
 {
 	char c;
-	do{printf("\nInput: "); scanf("%c", &c);}while(c>122||c<97);
+	scanf("%c", &c);
 	c=c-97;
-	printf("\nOutput: %c\n", 122-c);
+	printf("%c\n", 122-c);
 	return 0;
 }
 
