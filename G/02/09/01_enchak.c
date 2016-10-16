@@ -1,10 +1,10 @@
-i#include <stdio.h>
+#include <stdio.h>
 int main()
 {
- int n;
+ long long n;
   printf("vuvedi chislo");
-  scanf("%d",&n);
-printf("%d\n",n*n);
-printf("%d\n",n*n*n);
+  scanf("%lld",&n);
+printf("%lld\n",n*n);
+printf("%lld\n",n*n*n);
 return 0;
 }
