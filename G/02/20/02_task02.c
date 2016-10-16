@@ -1,5 +1,5 @@
 #include <stdio.h>
-void main() {
+int main() {
   float a,b,c,max;
   printf("\n A:>");
   scanf("%f",&a);
@@ -11,4 +11,5 @@ if (a>b)max=a;
 else max =b;
   if (c>max)max=c;
   printf("%f\n",max);
+return 0;
 }
