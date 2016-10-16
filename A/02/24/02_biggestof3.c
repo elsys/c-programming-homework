@@ -8,6 +8,6 @@ int main()
 	max=a;
 	if(b>max)max=b;
 	if(c>max)max=c;
-	printf("%f\n",max);
+	printf("%.1f\n",max);
 	return 0;
 }
