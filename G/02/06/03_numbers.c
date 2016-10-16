@@ -3,10 +3,8 @@
 int main(){
 
 int number;
-printf("enter number:");
 scanf("%d",&number);
 if (number>9){
-printf("please enter a number under 10: ");
 scanf("%d",&number);}
 if (number == 0)
 {printf("zero\n");}
