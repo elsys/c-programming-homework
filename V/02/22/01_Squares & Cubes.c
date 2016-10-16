@@ -4,8 +4,8 @@ int main(){
 
 	int i;
 	scanf("%d", &i);
-	printf("%d\n", i*i);
-	printf("%d", i*i*i);
+	printf("\n%d", i*i);
+	printf("\n%d", i*i*i);
 
 	return 0;
 }

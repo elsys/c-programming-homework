@@ -6,34 +6,34 @@ int main(){
 	scanf("%d", &i);
 	switch(i){
 		case 0:
-			printf("zero");
+			printf("\nzero");
 			break;
 		case 1:
-			printf("one");
+			printf("\none");
 			break;
 		case 2:
-			printf("two");
+			printf("\ntwo");
 			break;
 		case 3:
-			printf("three");
+			printf("\nthree");
 			break;
 		case 4:
-			printf("four");
+			printf("\nfour");
 			break;
 		case 5:
-			printf("five");
+			printf("\nfive");
 			break;
 		case 6:
-			printf("six");
+			printf("\nsix");
 			break;
 		case 7:
-			printf("seven");
+			printf("\nseven");
 			break;
 		case 8:
-			printf("eight");
+			printf("\neight");
 			break;
 		case 9:
-			printf("nine");
+			printf("\nnine");
 			break;
 	}
 	
