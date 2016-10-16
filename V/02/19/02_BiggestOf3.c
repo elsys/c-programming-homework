@@ -3,13 +3,9 @@
 int main()
 {
 	float nmb1, nmb2, nmb3;
-	int i=0;
 	
-	printf("Enter the 1st number: ");
 	scanf("%f", &nmb1);
-	printf("Enter the 2nd number: ");
         scanf("%f", &nmb2);
-	printf("Enter the 3rd number: ");
         scanf("%f", &nmb3);
 	
 	if(nmb1>nmb2)
