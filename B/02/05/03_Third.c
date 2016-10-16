@@ -4,6 +4,8 @@
 		{
 		int n;
 		scanf("%d",&n);
+		if(n==0)
+		  {printf("zero");}
 		if(n==1)
 		  { printf("one");}
 		if(n==2)
@@ -22,8 +24,6 @@
 		{printf("eight");}
 		if(n==9)
 		{printf("nine");}
-		if(n==10)
-		{printf("ten");}
 		return 0;
 		}
 			
