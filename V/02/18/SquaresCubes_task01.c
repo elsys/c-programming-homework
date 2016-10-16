@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
         int i,sq,cb;
         printf("\n Enter a nubmer:");
