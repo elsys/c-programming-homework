@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {   char e;
-    scanf("%s",&e);
+    scanf("%c",&e);
 if(e==97)
 	printf("\nz");
 if(e==98)
