@@ -6,34 +6,34 @@ scanf("%d", &n);
 switch (n)
 {
   case 1:
-  printf("One\n");
+  printf("one\n");
   break;
   case 2:
-  printf("Two\n");
+  printf("two\n");
   break;
   case 3:
-  printf("Three\n");
+  printf("three\n");
   break;
   case 4:
-  printf("Four\n");
+  printf("four\n");
   break;
   case 5:
-  printf("Five\n");
+  printf("five\n");
   break;
   case 6:
-  printf("Six\n");
+  printf("xix\n");
   break;
   case 7:
-  printf("Seven\n");
+  printf("xeven\n");
   break;
   case 8:
-  printf("Eight\n");
+  printf("eight\n");
   break;
   case 9:
-  printf("Nine\n");
+  printf("nine\n");
   break;
   case 0:
-  printf("Zero\n");
+  printf("zero\n");
   break;
 }
   return 0;
