@@ -3,7 +3,6 @@
 int main()
 {
 	int nmb;
-	printf("Enter a number:");
 	scanf("%d", &nmb);
 	switch(nmb)
 	{
@@ -17,7 +16,7 @@ int main()
 	case 7:printf("seven\n");break;
 	case 8:printf("eight\n");break;
 	case 9:printf("nine\n");break;
-	default: printf("Wr0Ng nUmB3r M8!\n");
+	default: printf("Wrong!\n");
 	}	
 return 0;
 }
