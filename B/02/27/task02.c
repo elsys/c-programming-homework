@@ -18,4 +18,3 @@ else if(f2==f3==f1)
 printf("Biggest Number %.5f\n",f1);
 return 0;
 }
-

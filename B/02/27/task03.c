@@ -1,17 +1,17 @@
 #include<stdio.h>
 int main()
 {
-	int m;
-	do
-	{
-	printf("Input Number:");
-	scanf("%d",&m);
-	}while(0>m || 9<m);
-	switch(m)
-	{
-	case 0:
-	printf("zern\n");break;
-        case 1:
+        int m;
+        do
+        {
+        printf("Input Number:");
+        scanf("%d",&m);
+        }while(0>m || 9<m);
+        switch(m)
+        {
+        case 0:
+        printf("zern\n");break;
+	case 1:
         printf("one\n");break;
         case 2:
         printf("two\n");break;
@@ -29,6 +29,8 @@ int main()
         printf("eight\n");break;
         case 9:
         printf("nine\n");break;
-	}
+        default:
+        printf("not integer\n");break;
+        }
 return 0;
-}                                                                      
+}
