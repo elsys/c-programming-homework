@@ -2,11 +2,10 @@
 int main()
 {
 int t=0;
-printf("\nInput Number:");
 scanf("%d",&t);
 int square=t*t;
 int squareTwo=t*t*t;
-printf("%d",square);
-printf("\n%d\n",squareTwo);
+printf("%d\n",square);
+printf("%d",squareTwo);
 return 0;
 }
