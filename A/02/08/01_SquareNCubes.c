@@ -4,8 +4,8 @@ int main(){
   scanf("%d", &a);
   square = a * a;
   cube = a * a * a;
-  printf("\n%d", square);
-  printf("\n%d", cube);
+  printf("%d\n", square);
+  printf("%d\n", cube);
 
   return 0;
 }
