@@ -9,10 +9,13 @@ https://github.com/elsys/c-programming-homework/tree/master/A/02#%D0%97%D0%B0%D0
 
 Compiled with warning(s)
 ```
-01_enchak.c:6:14: warning: format specifies type 'int *' but the argument has type 'long *' [-Wformat]
-  scanf("%d",&n);
-         ~~  ^~
-         %ld
+01_enchak.c:5:8: warning: variable 'b' is uninitialized when used here [-Wuninitialized]
+    ch=b*b;
+       ^
+01_enchak.c:3:10: note: initialize the variable 'b' to silence this warning
+{   int b,ch;
+         ^
+          = 0
 1 warning generated.
 
 ```
