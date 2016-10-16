@@ -3,7 +3,6 @@
 int main() {
 int n;
 do{
-printf("\n enter a number:");
 scanf("%d", &n);
 }while(n<0 || n>9);
 switch(n){
