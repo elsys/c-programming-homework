@@ -2,7 +2,7 @@
 
 int main()
 {
-	char c,l,m;
+	char l,m;
 	scanf("%c",&l);
 	m='a'+'z'-l;
 	printf("%c",m);
