@@ -8,6 +8,6 @@ int main()
 	c=getchar();
 	m=c-'a';
 	d='z'-m;
-	printf("%c ----> %c\n", c, d);
+	printf("%c\n",d);
 	return 0;
 }
