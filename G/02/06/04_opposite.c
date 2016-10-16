@@ -4,7 +4,6 @@
 int main(){
 
 char a;
-printf("enter a letter: ");
 scanf("%c",&a);
 
 if(a=='a'){
