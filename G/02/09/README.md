@@ -7,6 +7,15 @@ Maximum points: 20
 ## Task 1: Squares & Cubes [0/5 points]
 https://github.com/elsys/c-programming-homework/tree/master/A/02#%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-1---squares--cubes
 
+Compiled with warning(s)
+```
+01_enchak.c:6:14: warning: format specifies type 'int *' but the argument has type 'long *' [-Wformat]
+  scanf("%d",&n);
+         ~~  ^~
+         %ld
+1 warning generated.
+
+```
 ### Testcase 1 failed
 ### Testcase 2 failed
 
