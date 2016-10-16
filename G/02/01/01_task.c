@@ -7,7 +7,7 @@
 		kvadrat = chislo*chislo;
 		kub= chislo*chislo*chislo;	
 	}
-	printf("\n%d\n",kvadrat);
+	printf("%d\n",kvadrat);
 	printf("%d\n",kub);
 	return 0;
 }
