@@ -9,7 +9,7 @@ if(number1<number2){
 max=number2;}else{max=number1;}
 if(max<number3){
 max=number3;}
-printf("%f\n",max);
+printf("%.1f\n",max);
 return 0;
 }
 
