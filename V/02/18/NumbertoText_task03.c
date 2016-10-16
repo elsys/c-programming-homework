@@ -4,39 +4,38 @@ int main()
 
 {
         int integer;
-        printf("\n Enter a integer,please:");
         scanf("%d", &integer);
 
         switch(integer)
         {
-                case 0: printf("Zero\n");
+                case 0: printf("zero\n");
 	                break;
 
-                case 1: printf("One\n");
+                case 1: printf("one\n");
                         break;
 
-                case 2: printf("Two\n");
+                case 2: printf("two\n");
                         break;
 
-                case 3: printf("Three\n");
+                case 3: printf("three\n");
                         break;
                 
-                case 4: printf("Four\n");
+                case 4: printf("four\n");
                         break;
 
-                case 5: printf("Five\n");
+                case 5: printf("five\n");
                         break;
 
-                case 6: printf("Six\n");
+                case 6: printf("six\n");
                         break;
 
-                case 7: printf("Seven\n");
+                case 7: printf("seven\n");
                         break;
 
-                case 8: printf("Eight\n");
+                case 8: printf("eight\n");
                         break;
 
-                case 9: printf("Nine\n");
+                case 9: printf("nine\n");
 			break;
 	}
 }	
