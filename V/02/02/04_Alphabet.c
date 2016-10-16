@@ -6,6 +6,6 @@ scanf("%c", &h);
 }while(h<97 || h>122);
 int a=219;
 int b=a-h;
-printf("\n%c", b);
+printf("%c\n", b);
 return 0;
 }
