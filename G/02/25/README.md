@@ -24,18 +24,6 @@ https://github.com/elsys/c-programming-homework/tree/master/A/02#%D0%97%D0%B0%D0
 ## Task 4: Symmetric letters [0/5 points]
 https://github.com/elsys/c-programming-homework/tree/master/A/02#%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-4---symmetric-letters
 
-Failed compiling
-
-Exit code: 1
-
-Error
-```
-04_vvv.c:6:6: error: redefinition of 'a'
-char a;
-     ^
-04_vvv.c:4:6: note: previous definition is here
-char a,b;
-     ^
-1 error generated.
-
-```
+### Testcase 1 failed
+### Testcase 2 failed
+### Testcase 3 failed
