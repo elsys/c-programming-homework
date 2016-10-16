@@ -4,49 +4,48 @@ int main()
 {
 	int a;
 
-	printf("\nEnter a number:");
         scanf("%d",&a);
 	if(a>=0&&a<=9)
 	{	
 	if(a==0)
 	{
-	printf("\nZero");
+	printf("\nzero");
 	}
 	if(a==1)
 	{
-	printf("\nOne");
+	printf("\none");
 	}
 	if(a==2)
 	{
-	printf("\nTwo");
+	printf("\ntwo");
 	}
 	if(a==3)
 	{
-	printf("Three");
+	printf("three");
 	}
 	if(a==4)
 	{
-	printf("Four");
+	printf("four");
 	}
 	if(a==5)
 	{
-	printf("Five");
+	printf("five");
 	}
 	if(a==6)
 	{
-	printf("Six");
+	printf("six");
 	}
 	if(a==7)
 	{
-	printf("Seven");
+	printf("seven");
 	}
 	if(a==8)
 	{
-	printf("Eight");
+	printf("eight");
 	}
 	if(a==9)
 	{
-	printf("Nine");
+	printf("nine");
 	}
 	}
 return 0;
