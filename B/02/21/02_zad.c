@@ -7,13 +7,13 @@ int main ()
    if(a>b)
  {
 		if (a>c)
-		printf("\n%f\n",a);
-		else printf ("\n%f\n",c); 
+		printf("\n%.1f\n",a);
+		else printf ("\n%.1f\n",c); 
  }  else 
 	{
 		if(b>c)
-		printf("\n%f\n",b);
-		else printf("\n%f\n",c);
+		printf("\n%.1f\n",b);
+		else printf("\n%.1f\n",c);
 	}
 
  return 0;
