@@ -3,7 +3,7 @@ int main(){
 int num;
 do{
 scanf("%d", &num);
-}while(num<0||num>9);
+}while(num<1||num>9);
 switch(num){
 case 1:
 printf("one\n"); break;
