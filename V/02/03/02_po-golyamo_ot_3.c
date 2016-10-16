@@ -4,17 +4,17 @@ int main(){
 	scanf("%f",&k);
 	scanf("%f",&o);
 	scanf("%f",&c);
-		if(k>o && c)
+		if(k>o && k>c)
 			{
-			printf("%f e nay golyamo",k);
+			printf("%.1f e nay golyamo",k);
 			}
-		if(o>k && c)	
+		else if(o>k && o>c)	
 			{
-			printf("%f e nay golyamo",o);
+			printf("%.1f e nay golyamo",o);
 			}
-		if(c>k && o)
+		else if(c>k && c>o)
 			{
-			printf("%f e nay golyamo",c);
+			printf("%.1f e nay golyamo",c);
 			}
 return 0;
 }
