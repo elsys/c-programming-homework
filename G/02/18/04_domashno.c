@@ -1,8 +1,7 @@
 #include <stdio.h>
 int main()
 {   
-char s;
-printf("\n Include symbol"); 
+char s; 
 scanf("%s",&s);
     if(s==97)printf("\nz");
     if(s==98)printf("\ny");
