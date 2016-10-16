@@ -14,4 +14,5 @@ if(n==6)printf("\n six");
 if(n==7)printf("\n seven");
 if(n==8)printf("\n eight");
 if(n==9)printf("\n nine");
+return 0;
 }
