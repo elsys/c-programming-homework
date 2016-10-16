@@ -6,15 +6,15 @@ do{
 scanf("%d", &n);
 }while(n<0 || n>9);
 switch(n){
-case 1:printf("\n one");break;
-case 2:printf("\n two");break;
-case 3:printf("\n three");break;
-case 4:printf("\n four");break;
-case 5:printf("\n five");break;
-case 6:printf("\n six");break;
-case 7:printf("\n seven");break;
-case 8:printf("\n eight");break;
-case 9:printf("\n nine");break;
-case 0:printf("\n zero");break;
+case 1:printf("one\n");break;
+case 2:printf("two\n");break;
+case 3:printf("three\n");break;
+case 4:printf("four\n");break;
+case 5:printf("five\n");break;
+case 6:printf("six\n");break;
+case 7:printf("seven\n");break;
+case 8:printf("eight\n");break;
+case 9:printf("nine\n");break;
+case 0:printf("zero\n");break;
 } return 0;
 }
