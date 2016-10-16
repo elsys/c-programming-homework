@@ -10,10 +10,10 @@ int main()
                 printf("%.1f",a);
         }
         else if(b>a && b>c){
-                printf("%1.f",b);
+                printf("%.1f",b);
         }
         else if(c>a && c>b){
-                printf("1.%f",c);
+                printf("%.1f",c);
         }
         return 0;
 }
