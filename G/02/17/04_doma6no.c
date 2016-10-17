@@ -1,0 +1,59 @@
+#include <stdio.h>
+int main()
+{
+char l;
+scanf("%c", &l);
+if(l=='a')
+printf("\nz");
+if(l=='b')
+printf("\ny");
+if(l=='c')
+printf("\nx");
+if(l=='d')
+printf("\nw");
+if(l=='e')
+printf("\nv");
+if(l=='f')
+printf("\nu");
+if(l=='g')
+printf("\nt");
+if(l=='h')
+printf("\ns");
+if(l=='i')
+printf("\nr");
+if(l=='j')
+printf("\nq");
+if(l=='k')
+printf("\np");
+if(l=='l')
+printf("\no");
+if(l=='m')
+printf("\nn");
+if(l=='n')
+printf("\nm");
+if(l=='o')
+printf("\nl");
+if(l=='p')
+printf("\nk");
+if(l=='q')
+printf("\nj");
+if(l=='r')
+printf("\ni");
+if(l=='s')
+printf("\nh");
+if(l=='t')
+printf("\ng");
+if(l=='u')
+printf("\nf");
+if(l=='v')
+printf("\ne");
+if(l=='w')
+printf("\nd");
+if(l=='x')
+printf("\nc");
+if(l=='y')
+printf("\nb");
+if(l=='z')
+printf("\na");
+return 0;
+}
