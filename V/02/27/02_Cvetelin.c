@@ -8,15 +8,15 @@ scanf("%f", &numberTwo);
 scanf("%f", &numberThree);
 if(number > numberTwo && number > numberThree)
 {
-printf("%f", number);
+printf("%.1f", number);
 }
 else if(numberTwo > numberThree && numberTwo > number)
 {
-printf("%f", numberTwo);
+printf("%.1f", numberTwo);
 }
 else
 {
-printf("%f", numberThree);
+printf("%.1f", numberThree);
 }
 return 0;
 }
