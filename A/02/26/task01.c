@@ -4,7 +4,7 @@ int main()
 {
     int n, m, p;
 
-    printf("Input number:");
+    printf("Input number:\n");
     scanf("%d", &n);
     m=n*n;
     p=n*m;
