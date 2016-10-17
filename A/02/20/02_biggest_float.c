@@ -6,7 +6,7 @@ int main(){
   scanf ("\n%f", &b);
   scanf ("\n%f", &c);
   
-  if(a>b && a>c) printf("\n%.3f", a);
-  if(b>a && b<c) printf("\n%.3f", c);
-  if(b>a && b>c) printf("\n%.3f", b);
+  if(a>b && a>c) printf("\n%.1f", a);
+  if(b>a && b<c) printf("\n%.1f", c);
+  if(b>a && b>c) printf("\n%.1f", b);
 }
