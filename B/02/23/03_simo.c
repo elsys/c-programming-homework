@@ -5,7 +5,6 @@ int main()
 int f;
 do
 {
-printf("Input Number:");
 scanf("%d",&f);
 }while(0>f || 9<f);
 switch(f)
