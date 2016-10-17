@@ -25,47 +25,5 @@ https://github.com/elsys/c-programming-homework/tree/master/A/02#%D0%97%D0%B0%D0
 https://github.com/elsys/c-programming-homework/tree/master/A/02#%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-4---symmetric-letters
 
 ### Testcase 1 failed
-Input
-```
-a
-```
-
-Expected
-```
-z
-```
-
-Output
-```
-Enter a letter: z
-```
 ### Testcase 2 failed
-Input
-```
-g
-```
-
-Expected
-```
-t
-```
-
-Output
-```
-Enter a letter: t
-```
 ### Testcase 3 failed
-Input
-```
-y
-```
-
-Expected
-```
-b
-```
-
-Output
-```
-Enter a letter: b
-```

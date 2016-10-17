@@ -30,22 +30,6 @@ Compiled with warning(s)
 
 ```
 ### Testcase 1 failed
-Input
-```
-10.4
-11.5
-12.5
-```
-
-Expected
-```
-12.5
-```
-
-Output
-```
-12.500000
-```
 
 ## Task 3: Number to Text [3/5 points]
 https://github.com/elsys/c-programming-homework/tree/master/A/02#%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-3---number-to-text

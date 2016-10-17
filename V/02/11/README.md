@@ -8,56 +8,12 @@ Maximum points: 20
 https://github.com/elsys/c-programming-homework/tree/master/A/02#%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-1---squares--cubes
 
 ### Testcase 1 failed
-Input
-```
-10
-```
-
-Expected
-```
-100 1000
-```
-
-Output
-```
-Vavedi genadi :100 1000
-```
 ### Testcase 2 failed
-Input
-```
--2
-```
-
-Expected
-```
-4 -8
-```
-
-Output
-```
-Vavedi genadi :4 -8
-```
 
 ## Task 2: Biggest of 3 [0/5 points]
 https://github.com/elsys/c-programming-homework/tree/master/A/02#%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-2---biggest-of-3
 
 ### Testcase 1 failed
-Input
-```
-10.4
-11.5
-12.5
-```
-
-Expected
-```
-12.5
-```
-
-Output
-```
-Vavedi a :Vavedi b :Vavedi c :12.500000
-```
 
 ## Task 3: Number to Text [5/5 points]
 https://github.com/elsys/c-programming-homework/tree/master/A/02#%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-3---number-to-text
