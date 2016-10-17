@@ -6,11 +6,11 @@ scanf("%f", &l);
 scanf("%f", &a);
 scanf("%f", &g);
 if(l>a && l>g)
-printf("\n%f", l); 
+printf("\n%1.f", l); 
 if(a>l && a>g)
-printf("\n%f", a);
+printf("\n%1.f", a);
 if(g>a && g>l)
-printf("\n%f", g);
+printf("\n%1.f", g);
 return 0;
 }
 
