@@ -2,7 +2,6 @@
 int main()
 {
 	int a, n, p;
-	printf("Enter value for a: ");
 	scanf("%d",&a);
 		p=a*a;
 		n=a*a*a;

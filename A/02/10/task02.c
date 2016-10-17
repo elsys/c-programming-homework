@@ -2,11 +2,9 @@
 int main()
 {
   float a,b,c;
-	printf("a= ");
+	
 	scanf("%f",&a);
-	printf("\nb= ");
 	scanf("%f",&b);
-	printf("\nc= ");
 	scanf("%f",&c);
 
 	if(a>b && a>c){
