@@ -11,20 +11,20 @@ int main()
     {
         if (num0>=num2)
         {
-            printf("%f",num0);
+            printf("%.1f",num0);
         }else
         {
-            printf("%f",num2);
+            printf("%.1f",num2);
         }
 
     }
     else if (num1>=num2)
     {
-        printf("%f",num1);
+        printf("%.1f",num1);
     }
     else
     {
-        printf("%f",num2);
+        printf("%.1f",num2);
     }
     return 0;
 }
