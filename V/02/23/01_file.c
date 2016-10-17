@@ -2,9 +2,9 @@
 
 int main(){
     int a, b, c;
-	a=scanf("%d",&a);
-  b=a*a;
-  c=a*a*a;
-	printf("\n%d",b);
-	printf("\n%d",c);
+	scanf("%d",&a);
+  	b=a*a;
+  	c=a*a*a;
+	printf("\n%d\n",b);
+	printf("\n%d\n",c);
 }
