@@ -2,8 +2,7 @@
 int main()
 {
 int number;
-do{printf("\n Input number");
-scanf("%d",&a);}while(a<0||a>9);
+do{scanf("%d",&number);}while(number<0||number>9);
 if(number==0){printf("\n Zero");}
 if(number==1){printf("\n One");}
 if(number==2){printf("\n Two");}
