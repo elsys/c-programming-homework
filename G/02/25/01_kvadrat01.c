@@ -2,7 +2,6 @@
 int main()
 {
 int a,aa,aaa;
-printf("\n Vuvedi chislo");
 scanf("%d",&a);
 aa=a*a;
 aaa=aa*a;
