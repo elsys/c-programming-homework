@@ -6,7 +6,7 @@ int main()
 {
 	int i;
 
-                scanf("%d",&i)
+                scanf("%d",&i);
 
 
 	if (i==0)printf("zero");
