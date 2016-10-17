@@ -1,21 +1,21 @@
-include <stdio.h>
+#include <stdio.h>
 int main()
 {
-	
-	int n;
-	int k;
-	int c;	
 
-	scanf("%d", &n);
-	k = n*n;                                                 
-	c = n*n*n;
-	
+        int n;
+        int k;
+        int c;
 
-	printf("%d", k);
-	printf("\n%d", c);
+        scanf("%d", &n);
+        k = n*n;
+        c = n*n*n;
 
 
-	return 0;
+        printf("%d\n", k);
+        printf("%d\n", c);
+
+
+        return 0;
 }
 
 
