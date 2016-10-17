@@ -12,6 +12,6 @@ if(b>a&&b>c)
 { max=b; }
 if(c>a&&c>b)
 { max=c; }
-printf("\n %f", max);
+printf("\n %.1f", max);
 return 0;
 }
