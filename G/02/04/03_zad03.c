@@ -1,17 +1,17 @@
 #include<stdio.h>
 int main()
 {
-int number;
-do{scanf("%d",&number);}while(number<0||number>9);
-if(number==0){printf("\n Zero");}
-if(number==1){printf("\n One");}
-if(number==2){printf("\n Two");}
-if(number==3){printf("\n Three");}
-if(number==4){printf("\n Four");}
-if(number==5){printf("\n Five");}
-if(number==6){printf("\n Six");}
-if(number==7){printf("\n Seven");}
-if(number==8){printf("\n Eight");}
-if(number==9){printf("\n Nine");}
+int chis;
+scanf("%d",&chis);
+if(chis==0){printf("\n zero");}
+if(chis==1){printf("\n one");}
+if(chis==2){printf("\n two");}
+if(chis==3){printf("\n three");}
+if(chis==4){printf("\n four");}
+if(chis==5){printf("\n five");}
+if(chis==6){printf("\n six");}
+if(chis==7){printf("\n seven");}
+if(chis==8){printf("\n eight");}
+if(chis==9){printf("\n nine");}
 return 0;
 }
