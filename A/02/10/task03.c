@@ -6,7 +6,7 @@ int main()
 	int x;
  	
     	scanf("%d",&x);
-	}
+	
     	switch(x)
    	 {
         	case 0:printf("\n Zero\n");
