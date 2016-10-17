@@ -12,9 +12,7 @@ int main(){
                 case 7:printf("seven\n");break;
                 case 8:printf("eight\n");break;
                 case 9:printf("nine\n");break;
-		default:printf(" ednocifreno chislo\n");
-	return 0;
-}
+	}
 
 
 
