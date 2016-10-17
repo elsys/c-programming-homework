@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main(void)
+int main()
 {
 	int a,sq,cb;
 	
@@ -12,5 +12,5 @@ void main(void)
 	printf("\n %d",sq);
 	printf("\n %d",cb);
 
-
+return 0;
 }
