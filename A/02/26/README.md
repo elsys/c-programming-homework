@@ -1,14 +1,14 @@
 # Assignment report
 ```
-Points earned: 10
+Points earned: 20
 Maximum points: 20
 ```
 
-## Task 1: Squares & Cubes [0/5 points]
+## Task 1: Squares & Cubes [5/5 points]
 https://github.com/elsys/c-programming-homework/tree/master/A/02#%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-1---squares--cubes
 
-### Testcase 1 failed
-### Testcase 2 failed
+### Testcase 1 passed
+### Testcase 2 passed
 
 ## Task 2: Biggest of 3 [5/5 points]
 https://github.com/elsys/c-programming-homework/tree/master/A/02#%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-2---biggest-of-3
@@ -21,20 +21,9 @@ https://github.com/elsys/c-programming-homework/tree/master/A/02#%D0%97%D0%B0%D0
 ### Testcase 1 passed
 ### Testcase 2 passed
 
-## Task 4: Symmetric letters [0/5 points]
+## Task 4: Symmetric letters [5/5 points]
 https://github.com/elsys/c-programming-homework/tree/master/A/02#%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-4---symmetric-letters
 
-Compiled with warning(s)
-```
-04_hw.c:7:6: warning: expression result unused [-Wunused-value]
-    ("%c", &word);
-     ^~~~
-04_hw.c:7:12: warning: expression result unused [-Wunused-value]
-    ("%c", &word);
-           ^~~~~
-2 warnings generated.
-
-```
-### Testcase 1 failed
-### Testcase 2 failed
-### Testcase 3 failed
+### Testcase 1 passed
+### Testcase 2 passed
+### Testcase 3 passed
