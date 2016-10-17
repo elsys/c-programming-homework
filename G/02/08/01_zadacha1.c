@@ -6,6 +6,6 @@ int main()
 	scanf("%d",&a);
 	kvadrat=a*a;
 	printf("\n%d",kvadrat);
-	kub=kvad*a;
+	kub=kvadrat*a;
 	printf("\n%d",kub);
 }
