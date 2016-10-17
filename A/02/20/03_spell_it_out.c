@@ -5,14 +5,15 @@ int main(){
   scanf("\n%d", &n);
   
   switch(n){
-    case 1 : printf("\n One");
-    case 2 : printf("\n Two");
-    case 3 : printf("\n Three");
-    case 4 : printf("\n Four");
-    case 5 : printf("\n Five");
-    case 6 : printf("\n Six");
-    case 7 : printf("\n Seven");
-    case 8 : printf("\n Eight");
-    case 9 : printf("\n Nine");
+    case 1 : printf("\n one"); break;
+    case 2 : printf("\n two"); break;
+    case 3 : printf("\n three"); break;
+    case 4 : printf("\n four"); break;
+    case 5 : printf("\n five"); break;
+    case 6 : printf("\n six"); break;
+    case 7 : printf("\n seven"); break;
+    case 8 : printf("\n eight"); break;
+    case 9 : printf("\n nine"); break;
+    case 0 : printf("\n zero"); break;
    }
 }
