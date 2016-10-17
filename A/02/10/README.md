@@ -18,21 +18,8 @@ https://github.com/elsys/c-programming-homework/tree/master/A/02#%D0%97%D0%B0%D0
 ## Task 3: Number to Text [0/5 points]
 https://github.com/elsys/c-programming-homework/tree/master/A/02#%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-3---number-to-text
 
-Failed compiling
-
-Exit code: 1
-
-Error
-```
-task03.c:10:6: error: expected identifier or '('
-        switch(x)
-        ^
-task03.c:33:1: error: extraneous closing brace ('}')
-}
-^
-2 errors generated.
-
-```
+### Testcase 1 failed
+### Testcase 2 failed
 
 ## Task 4: Symmetric letters [5/5 points]
 https://github.com/elsys/c-programming-homework/tree/master/A/02#%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-4---symmetric-letters
