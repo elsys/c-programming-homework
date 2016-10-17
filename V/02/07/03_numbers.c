@@ -1,4 +1,4 @@
-nclude<stdio.h>
+#include<stdio.h>
 #include<stdlib.h>
 
    int main(){
@@ -25,5 +25,3 @@ nclude<stdio.h>
 
    return 0;
 }
-
-

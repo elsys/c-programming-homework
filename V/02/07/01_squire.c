@@ -1,4 +1,4 @@
-nclude<stdio.h>
+#include<stdio.h>
 #include<stdlib.h>
 
   int main(){
@@ -7,4 +7,4 @@ nclude<stdio.h>
   printf("\n Kvadratut e: %d \n", ch*ch);
   printf("\n Kubyt e: %d \n", ch*ch*ch);
   return 0;
-} 
+}   
