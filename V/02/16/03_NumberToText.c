@@ -4,9 +4,7 @@
 int main()
 {
     int num;
-    do{
     scanf("%d",&num);
-    }while(num>=9 || num<=0);
     switch(num)
     {
         case 0: printf("zero"); break;
