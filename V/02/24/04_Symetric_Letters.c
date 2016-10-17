@@ -1,7 +1,6 @@
 #include<stdio.h>
 int main(){
 	unsigned char n,n2,number;
-	printf("bukva\n");
 	scanf("%c",&n);
 	if(n<='m'){
 		n2='m'-n;
