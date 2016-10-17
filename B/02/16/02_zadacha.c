@@ -12,16 +12,16 @@ int main()
 	{
 		if (a > c)
 		{
-			printf ("%f", a);
+			printf ("%.1f", a);
  		}
-		else printf ("%f", c);
+		else printf ("%.1f", c);
 		
 	} else
 	{
 		if (b > c)
 		{
-			printf("%f", b);
+			printf("%.1f", b);
 		}
-		else printf("%f", c);
+		else printf("%.1f", c);
 	}	
 }

@@ -6,25 +6,25 @@ int main()
 	scanf("%d", &a);
 	switch(a)
 	{
-		case 0:printf("0 - zero");
+		case 0:printf("\nzero");
                         break;
-		case 1:printf("1 - one");
+		case 1:printf("\none");
                         break;
-		case 2:printf("2 - two");
+		case 2:printf("\ntwo");
                         break;
-		case 3:printf("3 - three");
+		case 3:printf("\nthree");
                         break;
-		case 4:printf("4 - four");
+		case 4:printf("\nfour");
                         break;
-		case 5:printf("5 - five");
+		case 5:printf("\nfive");
                         break;
-		case 6:printf("6 - six");
+		case 6:printf("\nsix");
                         break;
-		case 7:printf("7 - seven");
+		case 7:printf("\nseven");
                         break;
-		case 8:printf("8 - eight");
+		case 8:printf("\neight");
                         break;
-		case 9:printf("9 - nine");
+		case 9:printf("\nnine");
                         break;
 
 	}	
