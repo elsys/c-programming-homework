@@ -4,11 +4,9 @@
 int main()
 {
 	int x;
- 	printf("Enter a number: ");
+ 	
     	scanf("%d",&x);
-	while(x>9){
-		printf("Please enter a number with 1 digit!\n");
-		scanf("%d",&x);
+	scanf("%d",&x);
 	}
     	switch(x)
    	 {
