@@ -19,7 +19,7 @@ Exit code: 1
 
 Error
 ```
-02_domashno.c:25:1: error: extraneous closing brace ('}')
+02_domashno.c:18:1: error: extraneous closing brace ('}')
 }
 ^
 1 error generated.
