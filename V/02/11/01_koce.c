@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
 int a;
-printf("Vavedi genadi\n:");
+printf("\n");
 scanf("%d",&a);
 int p;
 p=a*a;
