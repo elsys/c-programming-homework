@@ -1,9 +1,15 @@
-nclude<stdio.h>
+#include <stdio.h>
 int main()
 {
-	char c;
-	do{
-		scanf("%c",&c);
-	}while(c<'a' || c>'z');
-	printf("%c \n",'z'-(c-'a'));
+        char c;
+        c=getchar();
+
+        if(c>='a' && c<='z')
+        {
+             c=(97 + (122 - c));
+             printf("\n%c\n",c);
+        }
+
+return 0;
+
 }
