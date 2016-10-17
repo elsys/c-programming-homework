@@ -2,11 +2,11 @@
 int main(){                                                                     float a;
 float b;
 float c;
-printf("Vavedi a\n:");
+printf("\n");
 scanf("%f",&a);
-printf("Vavedi b\n:");
+printf("\n");
 scanf("%f",&b);
-printf("Vavedi c\n:");
+printf("\n");
 scanf("%f",&c);
 if(a>b&&a>c){
 printf("%f\n",a);                                                               }
