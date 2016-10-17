@@ -1,23 +1,21 @@
-#include <stdio.h> 
-
+#include<stdio.h>
 int main()
-
 {
- float a, b, v;
-scanf("%f", &a);
-scanf("%f", &b);
-scanf("%f", &v);
+	
+ 
+ float a,b,c;
+ float max;
 
-if(a>b && a>v){
-printf("%f", a);
-}
-else if(b>a && b>v){
-printf("%f", b);
-}
-else if (v>a && v>b){
-printf("%f", v);
-}
+	scanf("%f",&a);
+	scanf("%f",&b);
+	scanf("%f",&c);
 
+max=a;
+if(b>max)max=b;
+if(c>max)max=c;
+printf("%.1f\n",max);
 
 return 0;
+
+
 }
