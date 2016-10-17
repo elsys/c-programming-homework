@@ -10,5 +10,5 @@ int main()
 	if(c>max){
 		max=c;
 	}
-	printf("%f",max);
+	printf("%.1f",max);
 }
