@@ -14,5 +14,5 @@ int main () {
 		}
 	}
 
-	printf("%f\n", max);
+	printf("%.2f\n", max);
 }
