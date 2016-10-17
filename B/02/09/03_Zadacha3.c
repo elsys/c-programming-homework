@@ -6,12 +6,7 @@ int main()
 {
 	int i;
 
-	  do
-        {
-                printf("Input number:");
-                scanf("%d",&i);
-        }
-        while(i < 0 || i > 9);
+                scanf("%d",&i)
 
 
 	if (i==0)printf("zero");
