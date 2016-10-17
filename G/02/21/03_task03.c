@@ -5,6 +5,8 @@ int main()
 {
 int a;
 scanf("%d", &a);
+if(a==0)
+{printf("\n zero");}
 if(a==1)
 {printf("\n one");}
 if(a==2)
