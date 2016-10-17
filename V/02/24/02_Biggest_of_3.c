@@ -1,8 +1,6 @@
 #include<stdio.h>
 int main(void){
 	float c1,c2,c3,max;
-	printf ("a wild number monster appeared:\n");
-	printf("GIVE ME 3 NUMBERS AND I WILL SPARE YOUR LIFE\n");
 	scanf("%f",&c1);
 	scanf("%f",&c2);
 	scanf("%f",&c3);
