@@ -2,7 +2,6 @@
 int main()
 {
 int a;
-printf("\n Vuvedi cifra");
 scanf("%d",&a);
 if(a==0){printf("\n zero");}
 if(a==1){printf("\n one");}
@@ -14,4 +13,5 @@ if(a==6){printf("\n six");}
 if(a==7){printf("\n seven");}
 if(a==8){printf("\n eight");}
 if(a==9){printf("\n nine");}
+return 0;
 }
