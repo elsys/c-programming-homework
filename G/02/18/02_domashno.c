@@ -1,25 +1,18 @@
 #include <stdio.h>
 int main() 
 {
-float a,b,c;
+float a,b,c,max;
 printf("\n Iclude number1:");
 scanf("%f",&a);
 printf("\n Iclude number2:");
 scanf("%f",&b);
 printf("\n Iclude number3:");
 scanf("%f",&c);
-if(a>b){
- if(a>c){
-   printf(" %.1f\n",a);
-  }else printf(" %.1f\n",c);
- }else if(b>a)
-{ 
- if(b>c) 
- { printf(" %.1f\n",b);
-  }else printf(" %.1f \n",c);
-}else
-{
-printf(" %.1f\n",c);
-}
+if(a>b){max=a;
+       }else{max=b;}
+if(max>c){printf("%.1f",max);
+         }else{printf("%.1f",c);
+              }
+return 0;
 }
 }
