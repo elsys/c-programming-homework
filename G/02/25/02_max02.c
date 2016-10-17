@@ -10,4 +10,5 @@ i++;
 if(max<a){max=a;}
 }
 printf("\n%.1f",max);
+return 0;
 }

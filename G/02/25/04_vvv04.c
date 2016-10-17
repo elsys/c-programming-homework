@@ -5,4 +5,5 @@ char a,b;
 scanf("%c",&a);
 b='a'+'z'-a;
 printf("\n%c",b);
+return 0;
 }

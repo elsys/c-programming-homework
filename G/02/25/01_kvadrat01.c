@@ -7,4 +7,5 @@ aa=a*a;
 aaa=aa*a;
 printf("\n%d",aa);
 printf("\n%d",aaa);
+return 0;
 }
