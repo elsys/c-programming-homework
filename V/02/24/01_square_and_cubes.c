@@ -7,8 +7,7 @@ int main(){
 		b=a*a;
 	}
 	if(a<0){
-		b=a*a;
-		b=b*-1;
+		b=(a*a);
 	}
 	c=a*a*a;
 	printf(" %d\n",b);

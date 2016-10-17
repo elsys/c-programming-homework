@@ -1,7 +1,6 @@
 #include<stdio.h>
 int main(){
 	int a;
-	printf("\n bate Gosho te pita ednocifreno za chislo:");
 	scanf("%d",&a);
 	switch(a){
 		case 1:printf("one\n");break;
@@ -13,7 +12,7 @@ int main(){
                 case 7:printf("seven\n");break;
                 case 8:printf("eight\n");break;
                 case 9:printf("nine\n");break;
-		default:printf(" kazah ednocifreno chislo, baluk!!\n");
+		default:printf(" ednocifreno chislo\n");
 	return 0;
 }
 

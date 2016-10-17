@@ -1,7 +1,6 @@
 #include<stdio.h>
 int main(){
-	int a;
-	unsigned char n,i=0,n2,number;
+	unsigned char n,n2,number;
 	printf("bukva\n");
 	scanf("%c",&n);
 	if(n<='m'){
