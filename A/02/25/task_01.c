@@ -11,33 +11,3 @@ int main(){
 
   return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//#include <stdio.h>
-//
-//int main() {
-//
-//  float f = 3.14;
-//printf("%d\n", (int)(f)); //tova e explicit cast
-//  return 0;
-//}
