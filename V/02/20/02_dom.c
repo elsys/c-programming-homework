@@ -1,23 +1,23 @@
 #include <stdio.h>
 int main() {
-int g, a, y;
-scanf ("%d" ,&g);
-scanf ("%d" ,&a);
-scanf ("%d" ,&y);
+float g, a, y;
+scanf ("%f" ,&g);
+scanf ("%f" ,&a);
+scanf ("%f" ,&y);
 if(y<a)
 {
 if(g<a)
-printf("%d\n" , a);
-else printf("%d\n"  ,g);
+printf("%.1f\n" , a);
+else printf("%.1f\n"  ,g);
 }
 else
 {
 if(y<g)
 {
-printf ("%d\n"  , g);
+printf ("%.1f\n"  , g);
 }
 else
-printf("%d\n" , y);
+printf("%.1f\n" , y);
 }
 return 0;
 }
