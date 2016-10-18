@@ -1,13 +1,11 @@
-+#include <stdio.h>
-+int main()
-+{     float x,y,z;
-+    	scanf("%f",&x);
-+    	scanf("%f",&y);
-+    	scanf("%f",&z);
-+    	if(x>y)
-+	    if(x>z)
-+	    printf("%.1f \n", x);
-+      else printf("%.1f \n", z);
-+   	  else if(y>z)printf("%.1f \n", y);
-+      else printf("%.1f \n", z);
-+}
+#include <stdio.h>
+int main()
+{   float a,b,c;
+    scanf("%f",&a);
+    scanf("%f",&b);
+    scanf("%f",&c);
+    if(a>b)if(a>c)printf("%.1f \n", a);
+           else printf("%.1f \n", c);
+    else if(b>c)printf("%.1f \n", b);
+         else printf("%.1f \n", c);
+}
