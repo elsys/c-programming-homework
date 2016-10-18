@@ -3,9 +3,7 @@
 int main()
 {
 int a;
-printf("Input your number a. If it is biger than 9, you will go out of programm.\n");
 do{
-printf("Enter your number: ");
 scanf("%d",&a);
 
 switch(a){
