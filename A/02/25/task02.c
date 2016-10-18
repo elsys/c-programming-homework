@@ -2,11 +2,11 @@
 
 int main(){
 
-  double a,b,c,i;
+  float a,b,c,i;
 
-  scanf("%lf", &a);
-  scanf("%lf", &b);
-  scanf("%lf", &c);
+  scanf("%f", &a);
+  scanf("%f", &b);
+  scanf("%f", &c);
 
   i = a;
 
@@ -17,7 +17,7 @@ int main(){
     i = c;
   }
 
-  printf("%lf", i);
+  printf("%1.f\n", i);
 
   return 0;
 }
