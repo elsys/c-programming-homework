@@ -5,11 +5,11 @@ int main ()
 
 float chislo1,chislo2,chislo3;
 
-printf("\n Vuvedi chislo1:");
+printf("\n");
 scanf("%f",&chislo1);
-printf("\n Vuvedi chislo2:");
+printf("\n");
 scanf("%f",&chislo2);
-printf("\n Vuvedi chislo3:");
+printf("\n");
 scanf("%f",&chislo3);
 
 if (chislo1>chislo2)
