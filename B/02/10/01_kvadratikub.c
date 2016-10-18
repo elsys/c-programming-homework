@@ -12,7 +12,7 @@ scanf("%d",n);
 
   s = n*n;
   c  = n*n*n;
-printf(" Square: %d\n Cube:%d\n ",s,c );
+printf("%d\n%d",s,c);
 
 return 0;
 }

@@ -28,7 +28,7 @@ if(n>s){
 
 
 
-printf(" BIGGEST:%.1f\n ",l );
+printf("%.1f",l );
 return 0;
 
 }
