@@ -5,8 +5,7 @@ int main()
 
 int ch;
 
-scanf("%d",&ch);}while(ch<0||ch>9);
-
+scanf("%d",&ch);
     if(ch==0){printf("\n Zero");}
     if(ch==1){printf("\n One");}
     if(ch==2){printf("\n Two");}
@@ -18,5 +17,5 @@ scanf("%d",&ch);}while(ch<0||ch>9);
     if(ch==8){printf("\n Eight");}
     if(ch==9){printf("\n Nine");}
 
-return 0
+return 0;
 }
