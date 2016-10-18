@@ -1,7 +1,6 @@
 #include <stdio.h>
 int main() {
   int a;
-  printf("Choose num:\n");
   scanf("%d", &a);
   switch (a){
     case 0:printf("Zero");
