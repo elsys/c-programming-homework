@@ -3,32 +3,35 @@ int main(){
 int x;
 printf("\n ");
 scanf("%d",&x);
+if(x==0){
+printf(" zero\n")
+}
 if(x==1){
-printf(" One\n");
+printf(" one\n");
 }
 if(x==2){
-printf(" Two\n");
+printf(" two\n");
 }
 if(x==3){
-printf(" Three\n");
+printf(" three\n");
 }
 if(x==4){
-printf(" Four\n");
+printf(" four\n");
 }
 if(x==5){
-printf(" Five\n");
+printf(" five\n");
 }
 if(x==6){
-printf(" Six\n");
+printf(" six\n");
 }
 if(x==7){
-printf(" Seven\n");
+printf(" seven\n");
 }
 if(x==8){
-printf(" Eight\n");
+printf(" eight\n");
 }
 if(x==9){
-printf(" Nine\n");
+printf(" nine\n");
 }
 return 0;
 }
