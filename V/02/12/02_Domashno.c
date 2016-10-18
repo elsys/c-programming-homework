@@ -21,5 +21,6 @@
          printf("%.1f", c);
      }
  }
+  return 0;
  }
 
