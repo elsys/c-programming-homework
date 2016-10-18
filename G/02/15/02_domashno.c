@@ -8,11 +8,11 @@
        scanf("%f", &nov);
        if (kj>ni)
             if (kj>nov)
-            printf("%1.f", kj);
-       else printf("%1.f", nov);
+            printf("%.1f", kj);
+       else printf("%.1f", nov);
        else if (ni>nov)
-        printf("%1.f", ni);
-       else printf("%1.f", nov);
+        printf("%.1f", ni);
+       else printf("%.1f", nov);
 
        return 0;
 
