@@ -12,7 +12,7 @@ float power(float a,int n)
 {
  float p = 1;
  int i, m;
- if(n>=0) m = n; else m =- n;
+ if(n>=0) m = n; else m = -n;
  for(i = 1; i <= m; i++) p *= a;
  if(n<0) p=1/p;
  return p;
