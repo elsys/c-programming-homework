@@ -4,86 +4,85 @@
 int main()
 {
 	char s;
-        printf("\n Vuvedi bukva:);
 	scanf("%c",&s);
 	
 	if(s=='a'){
-	printf("\n z");
+	printf("\nz");
 	}
 	if(s=='b'){
-	printf("\n y");
+	printf("\ny");
 	}
 	if(s=='c'){
-	printf("\n x");
+	printf("\nx");
 	}
 	if(s=='d'){
-	printf("\n w");
+	printf("\nw");
 	}
 	if(s=='e'){
-	printf("\n v");
+	printf("\nv");
 	}
 	if(s=='f'){
-	printf("\n u");
+	printf("\nu");
 	}
 	if(s=='g'){
-	printf("\n t");
+	printf("\nt");
 	}
 	if(s=='h'){
-	printf("\n s");
+	printf("\ns");
 	}
 	if(s=='i'){
-	printf("\n r");
+	printf("\nr");
 	}
 	if(s=='j'){
-	printf("\n q");
+	printf("\nq");
 	}
 	if(s=='k'){
-	printf("\n r");
+	printf("\nr");
 	}
 	if(s=='l'){
-	printf("\n o");
+	printf("\no");
 	}
 	if(s=='m'){
-	printf("\n n");
+	printf("\nn");
 	}
 	if(s=='n'){
-	printf("\n m");
+	printf("\nm");
 	}
 	if(s=='o'){
-	printf("\n l");
+	printf("\nl");
 	}
 	if(s=='p'){
-	printf("\n k");
+	printf("\nk");
 	}
 	if(s=='q'){
-	printf("\n j");
+	printf("\nj");
 	}
 	if(s=='r'){
-	printf("\n i");
+	printf("\ni");
 	}
 	if(s=='s'){
-	printf("\n h");
+	printf("\nh");
 	}
 	if(s=='t'){
-	printf("\n g");
+	printf("\ng");
 	}
 	if(s=='u'){
-	printf("\n f");
+	printf("\nf");
 	}
 	if(s=='v'){
-	printf("\n e");
+	printf("\ne");
 	}
 	if(s=='w'){
-	printf("\n d");
+	printf("\nd");
 	}
 	if(s=='x'){
-	printf("\n c");
+	printf("\nc");
 	}
 	if(s=='y'){
-	printf("\n b");
+	printf("\nb");
 	}
 	if(s=='z'){
-	printf("\n a");
+	printf("\na");
 	}
 
 return 0;
