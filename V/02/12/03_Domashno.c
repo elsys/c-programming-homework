@@ -3,7 +3,6 @@
 int main()
 {
 int a;
-printf("Enter number from 1 to 9:");
 scanf("%d",&a);
 if(a==1){
     printf("zero");
@@ -36,6 +35,6 @@ if(a>9){
     printf("A$$");
 }
 if(a<1){
-    printf("ASS*2");
+    printf("zero");
 }
 }
