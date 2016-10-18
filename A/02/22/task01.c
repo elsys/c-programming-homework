@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main() {
-  int a,b,c;
+  int a,b=0,c=0;
   scanf("%d", &a);
   b = a*a;
   c = b*a;
-  printf("%d\n", b);
-  printf("%d\n", c);
+  printf("\n%d", b);
+  printf("\n%d", c);
   return 0;
 }

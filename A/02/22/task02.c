@@ -6,9 +6,9 @@ int main() {
   scanf("%f", &b);
   scanf("%f", &c);
   if(a>b){
-    if(a>c){printf("%.1f\n", a);}
-    else{ printf("%.1f\n", c);}
+    if(a>c){printf("%.1f", a);}
+    else{ printf("%.1f", c);}
   }else if(b>c){
-    printf("%.1f\n", b);}
+    printf("%.1f", b);}
   return 0;
 }
