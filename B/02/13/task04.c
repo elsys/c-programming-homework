@@ -2,7 +2,6 @@
 int main()
 {
 char letter;
-printf("Please input your letter(a-z): ");
 letter = getchar();
 
 	if(letter>='a'||letter<='z')
