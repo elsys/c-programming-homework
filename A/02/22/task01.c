@@ -2,7 +2,6 @@
 
 int main() {
   int a,b,c;
-  printf("Give a number");
   scanf("%d", &a);
   b = a*a;
   c = b*a;
