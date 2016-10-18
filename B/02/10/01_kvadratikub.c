@@ -5,13 +5,14 @@
 #include "stdio.h"
 
 
-void main() {
+int main() {
 
-  int n = -2, s,c;
+  int n, s,c;
+scanf("%d",n);
 
   s = n*n;
   c  = n*n*n;
 printf(" Square: %d\n Cube:%d\n ",s,c );
 
-
+return 0;
 }

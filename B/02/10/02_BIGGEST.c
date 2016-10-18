@@ -5,9 +5,13 @@
 #include "stdio.h"
 
 
-void main() {
+int main() {
 
-  float n = 10.5, s=6.6,c=-2.6,l;
+  float n, s, c, l;
+  scanf("%f",n);
+  scanf("%f",s);
+  scanf("%f",c);
+
 if(n>s){
   if(n>c){
     l=n;
@@ -25,6 +29,6 @@ if(n>s){
 
 
 printf(" BIGGEST:%.1f\n ",l );
-
+return 0;
 
 }

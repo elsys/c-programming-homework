@@ -5,9 +5,10 @@
 #include "stdio.h"
 
 
-void main() {
+int main() {
 
-  int n = 0;
+  int n;
+  scanf("%d",n);
 
 switch(n){
 
@@ -48,6 +49,6 @@ switch(n){
 
 }
 
-
+return 0;
 
 }
