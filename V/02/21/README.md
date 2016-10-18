@@ -1,6 +1,6 @@
 # Assignment report
 ```
-Points earned: 18
+Points earned: 20
 Maximum points: 20
 ```
 
@@ -15,11 +15,10 @@ https://github.com/elsys/c-programming-homework/tree/master/A/02#%D0%97%D0%B0%D0
 
 ### Testcase 1 passed
 
-## Task 3: Number to Text [3/5 points]
+## Task 3: Number to Text [5/5 points]
 https://github.com/elsys/c-programming-homework/tree/master/A/02#%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-3---number-to-text
 
-### Testcase 1 failed
-Execution took more than 1 seconds
+### Testcase 1 passed
 ### Testcase 2 passed
 
 ## Task 4: Symmetric letters [5/5 points]
