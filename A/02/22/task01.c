@@ -2,11 +2,10 @@
 
 int main() {
   int a,b,c;
-  printf("Give a number");
   scanf("%d", &a);
   b = a*a;
   c = b*a;
-  printf("%d^2 = %d\n", a,b);
-  printf("%d^3 = %d", a,c);
+  printf("%d", b);
+  printf("%d", c);
   return 0;
 }
