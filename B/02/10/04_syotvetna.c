@@ -5,13 +5,14 @@
 #include "stdio.h"
 
 
-void main()
+int main()
 {
-  char orig = 'y', s;
+  char orig, s;
+  scanf("%c",orig);
 
   s = 'z' - (orig - 'a');
 
   printf("%c",s);
 
-
+return 0;
 }
