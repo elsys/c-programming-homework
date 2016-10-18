@@ -19,6 +19,7 @@ https://github.com/elsys/c-programming-homework/tree/master/A/02#%D0%97%D0%B0%D0
 https://github.com/elsys/c-programming-homework/tree/master/A/02#%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-3---number-to-text
 
 ### Testcase 1 failed
+Execution took more than 1 seconds
 ### Testcase 2 failed
 
 ## Task 4: Symmetric letters [5/5 points]
