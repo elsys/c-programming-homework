@@ -4,9 +4,9 @@ int main(){
 
   float a,b,c,i;
 
-  scanf("%lf", &a);
-  scanf("%lf", &b);
-  scanf("%lf", &c);
+  scanf("%f", &a);
+  scanf("%f", &b);
+  scanf("%f", &c);
 
   i = a;
 
