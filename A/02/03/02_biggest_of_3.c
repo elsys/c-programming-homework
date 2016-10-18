@@ -5,7 +5,7 @@ int main () {
 	float number, max;
 
 	for (i = 0; i <= 2; i++) {
-		scanf("%.1f", &number);
+		scanf("%f", &number);
 		
 		if (i == 0)
 			max = number;
@@ -14,5 +14,5 @@ int main () {
 		}
 	}
 
-	printf("%.2f\n", max);
+	printf("%.1f\n", max);
 }
