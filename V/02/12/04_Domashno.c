@@ -2,7 +2,6 @@
 int main()
 {
 char a;
-printf("Enter letter: ");
 scanf("%c",&a);
 if(a==97){
     printf("z");
