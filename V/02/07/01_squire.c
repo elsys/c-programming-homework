@@ -1,10 +1,11 @@
-#include<stdio.h>
-#include<stdlib.h>
-
+#include <stdio.h>
+#include <stdlib.h>
   int main(){
-  int ch;
-  printf("\n Vuvedi chislo");
-  printf("\n Kvadratut e: %d \n", ch*ch);
-  printf("\n Kubyt e: %d \n", ch*ch*ch);
+  int ch, rez;
+  scanf("%d",&ch);
+  rez=ch*ch;
+  printf("%d",rez);
+  rez=rez*ch;
+  printf("\n %d",rez);
   return 0;
-}   
+}
