@@ -8,8 +8,8 @@ int main(){
 	int a;
 		printf("Enter your number: \n");
 		scanf("%d",&a);
-		printf("square: %d\n",square(a));
-		printf("cubes: %d\n",cubes(a));
+		printf("%d\n",square(a));
+		printf("%d\n",cubes(a));
 
 	return 0;
 	}	
