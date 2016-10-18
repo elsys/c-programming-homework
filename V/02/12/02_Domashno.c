@@ -2,25 +2,24 @@
  
  int main()
  {
- float a,b,c,max;
+ float a,b,c;
  scanf("%f",&a);
  scanf("%f",&b);
  scanf("%f",&c);
   if(a>b){
      if(a>c){
-      max=a;
+      printf("%.1f", a);
      }
  }
  if(b>a){
      if(b>c){
-         max=b;
+         printf("%.1f", b);
      }
  }
  if(c>a){
      if(c>b){
-         max=c;
+         printf("%.1f", c);
      }
  }
-  printf("%f", max);
  }
 
