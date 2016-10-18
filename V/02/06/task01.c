@@ -1,9 +1,8 @@
 #include<stdio.h>
-#include<stdlib.h>
 int main(){
-  int a, b, c;
+  int a;
   scanf("%d", &a);
-  b = pow(a, 2);
-  c = pow(a, 3);
-  printf("%d\n%d", b,c);
+  printf("\n%d", a*a);
+  printf("\n%d", a*a*a);
+  return 0;
 }
