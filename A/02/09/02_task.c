@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 int main(){
-    float a, b, c;
+    float a, b, c,max;
     scanf("%f", &a);
     scanf("%f", &b);
     scanf("%f", &c);
-    float max=a;
+    max=a;
     if(max<b){
         max=b;
     }
     if(max<c){
         max=c;
     }
-    printf("%f", max);
+    printf("%.1f", max);
     return 0;
 }
