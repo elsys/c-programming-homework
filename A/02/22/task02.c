@@ -10,5 +10,6 @@ int main() {
     else{ printf("%.1f", c);}
   }else if(b>c){
     printf("%.1f", b);}
+  else{printf("%.1f", c);}
   return 0;
 }
