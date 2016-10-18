@@ -1,9 +1,8 @@
+#include<stdio.h>
 int main()
 {
     int a;
-    printf("Input:");
-    scanf("%d", &a);
-    printf("\n");
+    scanf("%d\n", &a);
     if(a==1)
         printf("One");
     if(a==2)
