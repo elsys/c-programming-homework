@@ -4,6 +4,9 @@ int main(){
     int a;
     scanf("%d", &a);
     switch (a){
+        case 0:
+            printf("zero");
+            break;
         case 1:
             printf("one");
             break;
