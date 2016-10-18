@@ -1,12 +1,11 @@
 #include <stdio.h>
 
 int main() {
-  int a,b,c;
-  printf("Give a number");
+  int a,b=0,c=0;
   scanf("%d", &a);
   b = a*a;
   c = b*a;
-  printf("%d^2 = %d\n", a,b);
-  printf("%d^3 = %d", a,c);
+  printf("\n%d", b);
+  printf("\n%d", c);
   return 0;
 }
