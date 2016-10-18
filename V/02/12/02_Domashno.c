@@ -3,11 +3,8 @@
  int main()
  {
  float a,b,c;
- printf("Enter number 1: ");
  scanf("%f",&a);
- printf("Enter number 2: ");
  scanf("%f",&b);
- printf("Enter number 3: ");
  scanf("%f",&c);
  if(a>b){
      if(a>c){

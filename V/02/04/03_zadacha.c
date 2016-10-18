@@ -3,7 +3,7 @@
 int main()
 {
 int chislo;
-printf("\n vuvedi chislo:");
+printf("\n");
 scanf("%d",&chislo);
 
 if(chislo==0)
@@ -29,3 +29,4 @@ printf("\n nine");
 
 return 0;
 }
+

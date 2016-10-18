@@ -3,7 +3,7 @@
 int main()
 {
    int a;
-   printf("\n Vuvedi chislo:");
+   printf("\n");
    scanf("%d", &a);
    int k,p;
 

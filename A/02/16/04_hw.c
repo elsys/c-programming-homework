@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
-{
-    char word;
-    ("%c", &word);
+int main(){
+	char word;
+
+	scanf("%c", &word);
+	
 	printf("%c", 'z'-(word - 'a'));
-    return 0;
+	
+	return 0;
 }

@@ -5,7 +5,6 @@ int main(){
   int a;
 
   do {
-    printf("Enter your number: \n");
     scanf("%d", &a);
   } while(a < 0 || a > 9);
 
@@ -21,7 +20,6 @@ int main(){
     case 7: printf("seven\n");break;
     case 8: printf("eight\n");break;
     case 9: printf("nine\n");break;
-
   }
   return 0;
 }
