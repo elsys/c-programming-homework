@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdilib.h>
-
 int main(){
   char a, b;
   scanf("%d", &a);
@@ -12,4 +10,5 @@ int main(){
     b = 96 + a;
   }
   printf("%c", b);
+  return 0;
 }
