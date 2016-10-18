@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main()
 {
-float a,max=0;
-int i=0;
-while(i<3)
+float number,mx=0;
+int j=0;
+while(j<3)
 {
-scanf("%f",&a);
-i++;
-if(max<a){max=a;}
+scanf("%f",&number);
+j++;
+if(mx<number){mx=number;}
 }
-printf("\n%f",max);
+printf("\n%.1f",mx);
 return 0;
 }
