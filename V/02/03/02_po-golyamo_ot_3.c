@@ -6,15 +6,15 @@ int main(){
 	scanf("%f",&c);
 		if(k>o && k>c)
 			{
-			printf("%.1f e nay golyamo",k);
+			printf("%.1f",k);
 			}
 		else if(o>k && o>c)	
 			{
-			printf("%.1f e nay golyamo",o);
+			printf("%.1f",o);
 			}
 		else if(c>k && c>o)
 			{
-			printf("%.1f e nay golyamo",c);
+			printf("%.1f",c);
 			}
 return 0;
 }

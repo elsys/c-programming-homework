@@ -4,8 +4,6 @@
 int main()
 {
  int n;
-
- printf("Enter a digit:");
  scanf("%d",&n);
 
 switch( n ) 
@@ -20,7 +18,7 @@ case 6: printf("six\n"); break;
 case 7: printf("seven\n"); break;
 case 8: printf("eight\n"); break;
 case 9: printf("nine\n"); break;
-default:printf("not a digit\n");break;
+default:break;
 }
 return 0;
 }

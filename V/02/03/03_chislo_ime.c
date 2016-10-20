@@ -1,29 +1,28 @@
 #include<stdio.h>
-int main(){
+int main() {
 int k;
 scanf("%d",&k);
         switch(k){
-                case 1:printf("one");
+		case 0:printf("zero\n");
 		break;
-                case 2:printf("two");
+                case 1:printf("one\n");
 		break;
-                case 3:printf("three");
+                case 2:printf("two\n");
 		break;
-                case 4:printf("four");
+                case 3:printf("three\n");
 		break;
-                case 5:printf("five");
+                case 4:printf("four\n");
 		break;
-                case 6:printf("six");
+                case 5:printf("five\n");
 		break;
-                case 7:printf("seven");
+                case 6:printf("six\n");
 		break;
-                case 8:printf("eight");
+                case 7:printf("seven\n");
 		break;
-                case 9:printf("nine");
+                case 8:printf("eight\n");
 		break;
-                default: printf("vuvdeniya simvol ne e cifra");
+                case 9:printf("nine\n");
 		break;
-        }
-return 0;
-}
+        }return 0;
+ }
 

@@ -23,4 +23,5 @@ char opposite_char(char c)
     char opposite = middle - c + middle + 1;
     return opposite;
   }
+  return 0;
 }
