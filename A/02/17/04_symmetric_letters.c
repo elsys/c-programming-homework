@@ -25,4 +25,3 @@ char get_symmetric_letter(char input)
 
     return alphabet[26 - 1 - index_of_input];
 }
-
