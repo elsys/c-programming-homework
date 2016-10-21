@@ -9,7 +9,7 @@ int main()
 	{
 		counter += 1 + i * 2;
 	}
-	printf("%d\n",counter);
+	printf("%d",counter);
 
 	for(int i = 0;i < n - 1;i++)
 	{
@@ -28,7 +28,6 @@ int main()
 				for(int k = 0;k < (i * 2) - 1;k++)
 				{
 					printf("#");
-					counter++;
 				}
 				printf("*\n");
 			}

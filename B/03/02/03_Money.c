@@ -8,10 +8,10 @@ int main()
 	scanf("%f",&m);
 	scanf("%d",&k);
 
-	for(int i = 0;i < n;i++)
+	for(int i = 1;i <= n;i++)
 	{
 		disc = i / k;
-		sum += m - ((m*(disc * 2)) / 100);
+		sum += m - ((m*(disc*2)) / 100)
 	}
 
 	printf("%.f",sum);
