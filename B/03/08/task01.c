@@ -13,7 +13,7 @@ sum=sum+a;
 i++;
 }while(i<=n);
 avg=sum/n;
-printf(" %.0f \n",sum);
-printf(" %.2f \n",avg);
+printf("Sum:%.0f \n",sum);
+printf("Avg:%.2f \n",avg);
 return 0;
 } 
