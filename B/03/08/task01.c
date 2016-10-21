@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main() 
 { 
-int n,sum,i,a;
-float avg;
-scanf("%d",&n);
+int i,a;
+float avg,n,sum;
+scanf("%f",&n);
 sum=0;
 i=1;
 do
@@ -13,7 +13,7 @@ sum=sum+a;
 i++;
 }while(i<=n);
 avg=sum/n;
-printf(" %d \n",sum);
+printf(" %f \n",sum);
 printf(" %.2f \n",avg);
 return 0;
 } 
