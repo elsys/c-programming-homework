@@ -11,7 +11,6 @@ int main()
 	}
 	printf("%d\n",counter);
 
-
 	for(int i = 0;i < n - 1;i++)
 	{
 		printf(" ");
@@ -39,6 +38,6 @@ int main()
 	{
 		printf("*");
 	}
-	
+
 	return 0;
 }

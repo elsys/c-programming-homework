@@ -5,7 +5,7 @@ int main()
 	int a, counter = 0;
 	float avg;
 	scanf("%d",&a);
-	
+
 	avg = 0;
 	for(;a > 0;a /= 10)
 	{
@@ -13,9 +13,9 @@ int main()
 		counter++;
 	}
 	avg /= counter;
-	
+
 	if(avg < 7) printf("light");
 	else printf("heavy");
-	
+
 	return 0;
 }

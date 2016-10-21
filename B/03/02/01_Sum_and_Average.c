@@ -7,7 +7,7 @@ int main()
 	scanf("%d",&n);
 	sum = 0;
 	avg = 0;
-	
+
 	for(int i = 0;i < n;i++)
 	{
 		scanf("%d",&a);
@@ -17,7 +17,6 @@ int main()
 	avg /= n;
 	printf("Sum: %d",sum);
 	printf("Avg: %.2f",avg);
-	
+
 	return 0;
 }
-
