@@ -13,6 +13,6 @@ i++;
 }
 avr=(float)sum/n;
 printf("\nSum:%d",sum);
-printf("\nAvr:%.2f",avr);
+printf("\nAvg:%.2f",avr);
 return 0;
 }
