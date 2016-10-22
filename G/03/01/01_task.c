@@ -3,19 +3,19 @@
 
 int main()
 {
-    int i,broi;
-    float suma,chislo,avr;
+    int i,broi,chislo,suma;
+    float avr;
     suma=0;
     scanf("%d",&broi);
         for(i=0;i<broi;i++){
-            scanf("%f",&chislo);
+            scanf("%d",&chislo);
             suma=suma+chislo;
         }
 
     avr=suma/broi;
 
-    printf("Sum: %.0f\n", suma);
-    printf("Avr: %.2f\n", avr);
+    printf("Sum: %d\n", suma);
+    printf("Avg: %.2f\n", avr);
     return 0;
 }
 
