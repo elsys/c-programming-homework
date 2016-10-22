@@ -3,7 +3,9 @@
 int main()
 {
         int n,m,k,discount=0,money,i,sum=0;
-        scanf("%d\n%d\n%d",&n,&m,&k);
+        scanf("%d",&n);
+	scanf("%d",&m);
+	scanf("%d",&k);
         money=m;
         while(i<n)
         {
