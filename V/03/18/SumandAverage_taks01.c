@@ -3,7 +3,7 @@
 int main()
 {
 	int n,i,numb;
-	float avr,sum;
+	float avr,sum=0;
 	scanf("%d", &n);
 	for(i=0;i<n;i++)
 	{
