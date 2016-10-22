@@ -8,7 +8,7 @@
 int main() {
 
   int n, s,c;
-scanf("%d",n);
+scanf("%d",&n);
 
   s = n*n;
   c  = n*n*n;
