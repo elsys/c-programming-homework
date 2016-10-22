@@ -13,11 +13,7 @@ int main() {
         counter += 1;
     }
 
-    printf("%d\n", sum);
-
     avg = (float)sum / counter;
-
-    printf("%f\n", avg);
 
     if (avg > 7) {
         printf("heavy\n");
@@ -28,3 +24,4 @@ int main() {
 
     return 0;
 }
+

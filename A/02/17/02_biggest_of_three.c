@@ -30,4 +30,3 @@ float get_biggest_of_three(float a, float b, float c)
         return c;
     }
 }
-
