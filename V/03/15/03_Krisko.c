@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-	int n,m,k,allmoney,alldiscount,sum=0,allsum=0,i,moneydis,moneynodis,money,times,z=1;
+	int n,m,k,allmoney,sum=0,allsum=0,i,moneydis,moneynodis,money,times,z=1;
 	float dis=0.02;
 	scanf("%d", &n);
 	scanf("%d", &m);
