@@ -12,7 +12,7 @@ sum=sum+a;
 i++;
 }
 avr=(float)sum/n;
-printf("\nSum:%d",sum);
-printf("\nAvg:%.2f",avr);
+printf("\nSum: %d",sum);
+printf("\nAvg: %.2f",avr);
 return 0;
 }
