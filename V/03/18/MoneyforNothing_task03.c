@@ -2,7 +2,7 @@
 
 int main()
 {
-	int n, m, k, discount=0, money, i, sum=0;
+	int n, m, k, discount=0, money, i=0, sum=0;
 	scanf("%d\n%d\n%d",&n,&m,&k);
 	money=m;
 	while(i<n)
