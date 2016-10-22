@@ -11,3 +11,4 @@ int main()
     printf("%d\n%d\n", square, cube);
     return 0;
 }
+
