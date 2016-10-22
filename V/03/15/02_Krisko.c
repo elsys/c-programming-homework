@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-	int n,i=1,sum=0;
-	float avg;
+	int n,i=0;
+	float avg,sum=0;
 	scanf("%d", &n);
-	while(n>0)
+	while(n!=0)
 	{
 		sum = sum + n%10;
 		n = n/10;
@@ -25,17 +25,5 @@ int main()
 
 
 
-        /*while(1)
-        {
-                cifra = n%10;
-                sum = sum + cifra;
-                i++;
-                n = n/10;
-                if(n==0)
-                {
-                        break;
-                }
-        }
-        avg = sum / i;
-	*/
+    
 }
