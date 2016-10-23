@@ -9,8 +9,8 @@ int main () {
     scanf("%d", &step);
 
     for (int i = 1; i <= count; i++) {
-        total += price - (price * discount / 100);;
-        if (!(i % step)){
+        total += price - (price * discount / 100);
+        if (!(i % step)) {
             discount += 2;
         }
     }
