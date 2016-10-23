@@ -5,7 +5,8 @@ int main()
 	char c1='*',c2='#';
 	scanf("%d",&n);
 	printf("%d\n", (n-2)*(n-2));
-	while(n>0)
+	n--;
+	while(n>=0)
 	{
 		for(k=0;k<n;k++)printf(" ");
 		if(j==1)
@@ -14,7 +15,7 @@ int main()
 			j++;
 			i++;
 		}
-		else if(n==1)
+		else if(n==0)
 		{
 			for(k=0;k<=j;k++)printf("%c",c1);
 		}
