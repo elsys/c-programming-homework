@@ -9,7 +9,7 @@ int main (){
     a /= 10;
   }
   sum /= i;
-  if(sum <= 7){
+  if(sum < 7){
     printf("light");
   } else {
     printf("heavy");
