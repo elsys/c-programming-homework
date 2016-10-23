@@ -12,6 +12,6 @@ int main()
   scanf("%d", &a);
   sum += a;
  }
- printf("Sum: %d\nAvr: %.2f",sum ,avr =((float)sum)/n);
+ printf("Sum: %d\nAvg: %.2f",sum ,avr =((float)sum)/n);
  return 0;
 }
