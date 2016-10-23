@@ -2,7 +2,7 @@
 int main()
 {
 	int i=1,n,num;
-	float avg=0,num,sum=0;
+	float avg=0,sum=0;
 	scanf("%d", &n);
 	for(i=0;i<n;i++)
 	{
