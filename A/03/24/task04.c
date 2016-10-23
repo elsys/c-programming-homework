@@ -16,7 +16,7 @@ int main()
 		}
 		else if(n==1)
 		{
-			for(k=0;k<=j;k++)printf("%c\n",c1);
+			for(k=0;k<=j;k++)printf("%c",c1);
 		}
 		else
 		{
