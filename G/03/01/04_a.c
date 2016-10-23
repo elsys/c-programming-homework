@@ -3,7 +3,7 @@
 
 int main()
 {
-    int broi,broiSpace,broiStars,broiDies,i,j,sumaDies=0;
+    int broi,broiSpace,broiDies,i,j,sumaDies=0;
     do{
     scanf("%d",&broi);
     }while(broi<3);
@@ -21,14 +21,7 @@ int main()
     for(i=0;i<broi;i++){
     printf("\n");
     broiSpace=broi-(i+1);
-    if(i==0){
-        broiStars=1;
-    }
-    else{
-        if(i==broi-1)
-            broiStars=2*broi-1;
-        }
-
+    
     for(j=0;j<koloni;j++){
     if(i!=broi-1&&(j<broiSpace||j>=koloni-broiSpace))
         printf(" ");
