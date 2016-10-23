@@ -17,4 +17,5 @@ int main() {
     h = h + j;
   }
   printf("%d\n", h);
+  return 0;
 }
