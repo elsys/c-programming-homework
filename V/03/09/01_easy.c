@@ -10,7 +10,7 @@ int main(){
 		avr=sum;
 	}
 
-	printf("Sum: %d\nAvr: %.2f", sum, avr/vhod);
+	printf("Sum: %d\nAvg: %.2f", sum, avr/vhod);
 
 	return 0;
 }
