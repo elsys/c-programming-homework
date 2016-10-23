@@ -4,23 +4,23 @@ int main()
     int a;
     scanf("%d\n", &a);
     if(a==1)
-        printf("One");
+        printf("one");
     if(a==2)
-        printf("Two");
+        printf("two");
     if(a==3)
-        printf("Three");
+        printf("three");
     if(a==4)
-        printf("Four");
+        printf("four");
     if(a==5)
-        printf("Five");
+        printf("five");
     if(a==6)
-        printf("Six");
+        printf("six");
     if(a==7)
-        printf("Seven");
+        printf("seven");
     if(a==8)
-        printf("Eight");
+        printf("eight");
     if(a==9)
-        printf("Nine");
+        printf("nine");
     if(a==0)
-        printf("Zero");
+        printf("zero");
 }

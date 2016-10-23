@@ -8,9 +8,9 @@
 int main() {
 
   float n, s, c, l;
-  scanf("%f",n);
-  scanf("%f",s);
-  scanf("%f",c);
+  scanf("%f",&n);
+  scanf("%f",&s);
+  scanf("%f",&c);
 
 if(n>s){
   if(n>c){
