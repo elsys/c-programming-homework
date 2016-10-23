@@ -16,13 +16,13 @@ int main()
 		}
 		else if(n==1)
 		{
-			for(k=0;k<=j;k++)printf("%c",c1);
+			for(k=0;k<=j;k++)printf("%c\n",c1);
 		}
 		else
 		{
 			printf("%c",c1);
 			for(k=0;k<i;k++)printf("%c",c2);
-			printf("%c",c1);
+			printf("%c\n",c1);
 			j=j+2;
 			i=i+2;
 		}
