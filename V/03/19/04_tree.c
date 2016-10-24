@@ -2,7 +2,7 @@
  
 int main()
 {
-	int empty = 0, row, k, i = 0, j = 1 , str=0, hashes = 1;
+	int empty = 0, row, k, i = 0, j = 1 , hashes = 1;
 	scanf("%d", &row);
 	for(i=0; i<row - 2; i++)
 	{
