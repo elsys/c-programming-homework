@@ -3,18 +3,19 @@
 
 int main()
 {
-    int n,sum=0,i,a;
-	float avr;
+    int n,i,a;
+    float  avr=0,sum=0;
     scanf("%d",&n);
     for (i=1;i<=n;i++)
-    {    
+    {
         scanf("%d",&a);
         sum=sum+a;
     }
-    
-    printf("Sum: %d\n",sum);
-	avr=sum/n;
-	printf("Avg: %.2f\n",avr);
-    
+
+    printf("Sum: %.0f\n",sum);
+        avr=sum/n;
+        printf("Avg: %.2f\n",avr);
+
     return 0;
 }
+
