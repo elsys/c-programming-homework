@@ -7,6 +7,7 @@ int main()
 	scanf("%d", &n);
 	sum = 0;
 	avg = 0;
+	i = 0;
 	do
 	{
 		sum = sum + n%10;
@@ -14,7 +15,13 @@ int main()
 		i++;
 	}while(n != 0);
 	avg = sum / i;
-	if(avg < 7) printf("light");
-	else printf("heavy");
+	if(avg < 7)
+	{
+		printf("light");
+	}
+	else
+	{
+		printf("heavy");
+	}
 	return 0;
 }
