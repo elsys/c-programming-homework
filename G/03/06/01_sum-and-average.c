@@ -14,7 +14,7 @@ int main()
     
     printf("Sum: %d\n",sum);
 	avr=sum/n;
-	printf("Avr: %.2f\n",avr);
+	printf("Avg: %.2f\n",avr);
     
     return 0;
 }
