@@ -3,7 +3,7 @@
 
 int main()
 {
-	 int k, i, v;
+	 int k, i;
 	float sum;
 	sum=0;
 	i=0;
