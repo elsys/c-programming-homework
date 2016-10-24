@@ -9,7 +9,7 @@ n=n/10;
 i++;
 }while(n>0);
 avg=sum/i;
-if(avg>7){printf("heavy");
+if(avg>=7){printf("heavy");
 }else{printf("light");}
 return 0;
 }
