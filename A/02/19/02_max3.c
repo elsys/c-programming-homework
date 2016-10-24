@@ -3,11 +3,12 @@
 int main()
 {
 	float a,b,c,max;
-	printf("Input3: ");
-	scanf("%f", &a); scanf("%f", &b); scanf("%f", &c);
+	scanf("%f", &a);
+	scanf("%f", &b);
+	scanf("%f", &c);
 	max=a;
 	if(b>max)max=b;
 	if(c>max)max=c;
-	printf("%.3f\n", max);
+	printf("%.1f\n", max);
 	return 0;
 }

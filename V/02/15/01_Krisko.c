@@ -2,11 +2,10 @@
 int main()
 {
    int n,i,k;
-   printf("\n Insert number:");
    scanf("%d", &n);
    i=n*n;
-   k=n*n*n;
-   printf("%d\n", i);
-   printf("%d\n", k);
+   k=i*n;
+   printf("%d\n%d", i, k);
+ 
    return 0;
 }

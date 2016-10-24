@@ -1,11 +1,12 @@
 #include<stdio.h>
 int main(){
 int num;
-printf("DAI NUMMMMMBERRR\n");
 do{
 scanf("%d", &num);
 }while(num<0||num>9);
 switch(num){
+case 0:
+printf("zero\n"); break;
 case 1:
 printf("one\n"); break;
 case 2:

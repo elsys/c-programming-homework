@@ -9,20 +9,20 @@ if(a>b)
 {
  if(a>c)
   {
-   printf(" %.2f\n",a);
+   printf(" %.1f\n",a);
   }
-  else printf(" %.2f\n",c);
+  else printf(" %.1f\n",c);
  }
 else if(b>a)
 { 
  if(b>c)
   {
-   printf(" %.2f\n",b);
+   printf(" %.1f\n",b);
   }
- else printf(" %.2f \n",c);
+ else printf(" %.1f \n",c);
 }
 else
 {
-printf(" %.2f\n",c);
+printf(" %.1f\n",c);
 }
 }

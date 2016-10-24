@@ -3,7 +3,12 @@
 int main()
 {
 	int l;
+	do{
 	scanf("%d",&l);
+	}while(l>9||l<0);
+	
+if(l==0)
+	printf("\nzero");
 if(l==1)
 	printf("\none");
 if(l==2)
@@ -22,8 +27,6 @@ if(l==8)
 	printf("\neight");
 if(l==9)
 	printf("\nnine");
-
-
 
 return 0;
 

@@ -1,7 +1,6 @@
 #include<stdio.h>
 int main(){
 char let;
-printf("Give me a letter\n");
 do{
 let = getchar();
 }while(let<'a'||let>'z');

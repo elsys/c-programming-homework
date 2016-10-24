@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() 
+int main()
 {
     int n = 0;
     scanf("%d", &n);
@@ -11,3 +11,4 @@ int main()
     printf("%d\n%d\n", square, cube);
     return 0;
 }
+

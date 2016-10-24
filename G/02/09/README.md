@@ -1,42 +1,29 @@
 # Assignment report
 ```
-Points earned: 0
+Points earned: 20
 Maximum points: 20
 ```
 
-## Task 1: Squares & Cubes [0/5 points]
+## Task 1: Squares & Cubes [5/5 points]
 https://github.com/elsys/c-programming-homework/tree/master/A/02#%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-1---squares--cubes
 
-Failed compiling
+### Testcase 1 passed
+### Testcase 2 passed
 
-Exit code: 1
-
-Error
-```
-01_enchak.c:1:1: error: unknown type name 'i'
-i#include <stdio.h>
-^
-01_enchak.c:1:2: error: expected identifier or '('
-i#include <stdio.h>
- ^
-2 errors generated.
-
-```
-
-## Task 2: Biggest of 3 [0/5 points]
+## Task 2: Biggest of 3 [5/5 points]
 https://github.com/elsys/c-programming-homework/tree/master/A/02#%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-2---biggest-of-3
 
-### Testcase 1 failed
+### Testcase 1 passed
 
-## Task 3: Number to Text [0/5 points]
+## Task 3: Number to Text [5/5 points]
 https://github.com/elsys/c-programming-homework/tree/master/A/02#%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-3---number-to-text
 
-### Testcase 1 failed
-### Testcase 2 failed
+### Testcase 1 passed
+### Testcase 2 passed
 
-## Task 4: Symmetric letters [0/5 points]
+## Task 4: Symmetric letters [5/5 points]
 https://github.com/elsys/c-programming-homework/tree/master/A/02#%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0-4---symmetric-letters
 
-### Testcase 1 failed
-### Testcase 2 failed
-### Testcase 3 failed
+### Testcase 1 passed
+### Testcase 2 passed
+### Testcase 3 passed

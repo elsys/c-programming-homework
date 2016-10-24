@@ -3,8 +3,8 @@
 
 char get_symmetric_letter(char input);
 
-int main() 
-{   
+int main()
+{
     char input_letter = getchar();
     printf("%c\n", get_symmetric_letter(input_letter));
     return 0;
@@ -25,3 +25,5 @@ char get_symmetric_letter(char input)
 
     return alphabet[26 - 1 - index_of_input];
 }
+
+

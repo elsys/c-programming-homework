@@ -1,5 +1,5 @@
 #include <stdio.h>
-void main() {
+int main() {
   int n;
   scanf("%d",&n);
   switch (n) {
@@ -15,4 +15,5 @@ void main() {
     case 9:printf("\n nine\n");break;
     case 10:printf("\n ten\n");break;
     }
+  return 0;
 }

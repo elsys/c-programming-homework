@@ -4,7 +4,6 @@ int main()
 {
 	int in,square,cube;
 	
-	printf("Enter a number: \n");
 	scanf("%d", &in);
 	
 	square=in*in;
