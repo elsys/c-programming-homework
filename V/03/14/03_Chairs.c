@@ -1,11 +1,10 @@
 #include<stdio.h>
 int main(){
-int n, a, m, k, i, sum=0, cdc, d;
+int n, m, k, i, sum=0, cdc, d;
 float dc=0.02;
 scanf("%d %d %d", &n, &m, &k);
 cdc=n-k;
 d=m*dc;
-a=k+1;
 for(i=0; i<cdc; i++){
 if(i%k==0 && i!=0){
 dc=dc+0.02;
