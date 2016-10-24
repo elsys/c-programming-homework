@@ -1,13 +1,13 @@
 #include<stdio.h>
 int main(){
 int n, i;
-float  sum=0, avg=1;
+float  sum=0, avg;
 scanf("%d", &n);
-do{
+while(n>0){
 sum=sum+n%10;
 n=n/10;
 i++;
-}while(n>0);
+}
 avg=sum/i;
 if(avg>=7){printf("heavy");
 }else{printf("light");}
