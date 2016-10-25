@@ -12,8 +12,8 @@ for(i=0;i<n;i++)
  sum=sum+a;
 }
 avarage=sum/n;
-printf("\n %d" ,sum);
-printf("\n %.2f" ,avarage);
+printf("\n Sum: %d" ,sum);
+printf("\n Avg: %.2f" ,avarage);
 return 0;
 }
 
