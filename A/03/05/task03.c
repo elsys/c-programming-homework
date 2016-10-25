@@ -9,9 +9,11 @@ int main()
  scanf("%d",&m);
  scanf("%d",&k);
  for(r*m;i<=n;i++){
-    sum=sum+m;
- if(n%k==0){
-    m=m-r;}
-}
+ 	sum=sum+m;
+ if(i%k==0){
+    m=m-r;
+   }
+ }
  printf("%d\n",sum);
 }
+
