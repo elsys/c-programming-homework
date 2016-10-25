@@ -17,7 +17,7 @@ int main()
 	m=a;
 	}
 	while(i<=2);	
-	printf("MAX=%.2f\n",m);
+	printf("MAX=%f\n",m);
 return 0;
 
 }
