@@ -11,7 +11,7 @@ for(i=0;i<n;i++)
  scanf("%d",&a);
  sum=sum+a;
 }
-avarage=sum/n;
+avarage=(float)sum/n;
 printf("\n Sum: %d" ,sum);
 printf("\n Avg: %.2f" ,avarage);
 return 0;
