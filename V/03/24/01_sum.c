@@ -1,7 +1,6 @@
 #include<stdio.h>
 int main(){
-	int n,sum,i,a;
-	float avr;
+	int n,sum,i,a,avr;
 	scanf("%d",&n);
 	for(i=0;i<n;i++){
   		scanf("%d",&a);
