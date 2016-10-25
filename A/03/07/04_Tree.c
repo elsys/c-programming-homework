@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int n, space, hashtag=0, i, current=1, b=0;
+    int n, space, hashtag=0, i, current=1;
     scanf("%d", &n);
     space = n-1;
     printf("%d\n", (n-2)*(n-2));
