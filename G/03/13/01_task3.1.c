@@ -2,7 +2,7 @@
 
 int main()
 {
-  
+
   int n,a,i,s=0;
   float avg;
   scanf("%d", &n);
@@ -11,9 +11,9 @@ int main()
   scanf("%d", &a);
   s=s+a;
   }
-  printf("Sum:=%d\n",s);
+  printf("Sum: %d\n",s);
   avg=s/n;
-  printf("Avg:=%.2f\n", avg);
+  printf("Avg: %.2f\n", avg);
 
   return 0;
 }
