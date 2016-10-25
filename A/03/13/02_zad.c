@@ -12,7 +12,7 @@ int main(){
 			br++;
 	}
 		while(a>0);
-		avg=avg/br;
+		avg=sum/br;
 	if(avg>7) printf("heavy\n");
 	else printf("light");
 return 0;}
