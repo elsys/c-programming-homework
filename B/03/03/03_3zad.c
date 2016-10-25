@@ -2,7 +2,7 @@
 
 int main()
 {
-	int n, m, k, z, i, p, sum;
+	int n, m, k, z, i, sum;
 	scanf("%d", &n);
 	scanf("%d", &m);
 	scanf("%d", &k);
@@ -14,7 +14,6 @@ int main()
 	  sum = sum + z ;
 	  if(i % k == 0)
 	   {
-	     p = z * (2 / 100);
 	     z = z * 0.98; 
 	   }	
 	}
