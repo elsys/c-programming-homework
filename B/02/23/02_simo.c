@@ -1,22 +1,22 @@
 
 #include <stdio.h>
-int main()
+int main ()
 {
-float m,n,b;
-printf("\nInput first number:");
-scanf("%f",&m);
-printf("\nInput first number:");
-scanf("%f",&n);
-printf("\nInput first number:");
-scanf("%f",&b);
-if (m>n && m>b)
-printf("Biggest number is%f\n",m);
-else if(n>m && n>b)
-printf("Biggest number is%f\n",n);
-else if(b>m && b>n)
-printf("Biggest number is%f\n",b);
-else if(m==n==b)
-printf("NO biggest number, sorry%.19f\n",m);
+float n,y,h;
+scanf ("%f",&n);
+scanf ("%f",&y);
+scanf ("%f",&h);
+if (n>y)
+{
+if (n>h) printf ("\n %.1f\n",n);
+else printf ("\n %.1f\n",h);
+}
+else
+{
+if (y>h) printf ("\n %.1f\n",y);
+else printf ("\n %.1f",h);
+}
 return 0;
 }
+
 

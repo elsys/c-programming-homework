@@ -1,0 +1,84 @@
+#include <stdio.h>
+int main()
+{
+char a;
+scanf("%c",&a);
+if(a==97){
+    printf("z");
+}
+if(a==98){
+    printf("y");
+}
+if(a==99){
+    printf("x");
+}
+if(a==100){
+    printf("w");
+}
+if(a==101){
+    printf("v");
+}
+if(a==102){
+    printf("u");
+}
+if(a==103){
+    printf("t");
+}
+if(a==104){
+    printf("s");
+}
+if(a==105){
+    printf("r");
+}
+if(a==106){
+    printf("q");
+}
+if(a==107){
+    printf("s");
+}
+if(a==108){
+    printf("o");
+}
+if(a==109){
+    printf("n");
+}
+if(a==110){
+    printf("m");
+}
+if(a==111){
+    printf("l");
+}
+if(a==112){
+    printf("k");
+}
+if(a==113){
+    printf("j");
+}
+if(a==114){
+    printf("i");
+}
+if(a==115){
+    printf("h");
+}
+if(a==116){
+    printf("g");
+}
+if(a==117){
+    printf("f");
+}
+if(a==118){
+    printf("e");
+}
+if(a==119){
+    printf("d");
+}
+if(a==120){
+    printf("c");
+}
+if(a==121){
+    printf("b");
+}
+if(a==122){
+    printf("a");
+}
+}

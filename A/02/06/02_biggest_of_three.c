@@ -13,6 +13,6 @@ int main(){
 	if(max < c){
 		max = c;
 	}
-	printf("%f", max);
+	printf("%.1f", max);
 	return 0;
 }

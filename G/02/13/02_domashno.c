@@ -15,7 +15,7 @@ int main()
 	m=a;
 	}
 	while(i<=2);	
-	printf("%f\n",m);
+	printf("%.1f\n",m);
 return 0;
 
 }

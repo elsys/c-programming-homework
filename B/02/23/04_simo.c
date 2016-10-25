@@ -2,9 +2,8 @@
 int main()
 {
 char c,s;
-printf("Input letter\n");
 scanf("%c",&c);
 s = 'z' - (c-'a');
-printf("%c",s);
+printf("\n%c",s);
 return 0;
 }
