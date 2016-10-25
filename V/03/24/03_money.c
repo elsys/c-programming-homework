@@ -11,7 +11,6 @@ int main(){
 	while(number!=0){
 		discount=discount-2;
 		price2=price*discount/100;
-		//printf("%d=price2",price2);
 		for(i2=0;i2<k;i2++){
 			total=total+price2;
 		}
