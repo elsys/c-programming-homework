@@ -7,16 +7,9 @@ int main(){
   		scanf("%d",&a);
 		sum=sum+a;
 	}
-	avr=sum/n;
+	(float)avr=sum/n;
         printf("Sum: %d\n",sum);
-	if(avr==0){
-		sum=sum*10;
-		avr1=sum/n;
-		avr2=sum%n;
-		avr=avr1+avr2;
-		avr=avr/10;
-	}
-	printf("Avg: %.2f\n",avr);
+	printf("Avg: %.2f\n",(float)avr);
 
 
 
