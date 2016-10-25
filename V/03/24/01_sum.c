@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
 	int n,sum,i,a;
-	float avr,avr1,avr2;
+	float avr;
 	scanf("%d",&n);
 	for(i=0;i<n;i++){
   		scanf("%d",&a);
