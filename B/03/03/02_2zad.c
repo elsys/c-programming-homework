@@ -2,7 +2,8 @@
 
 int main()
 {
-	int a, avr = 0, i;
+	int a, i = 0;
+	float avr = 0;
 	do
 	{
 	  scanf("%d", &a);
@@ -14,7 +15,7 @@ int main()
 	  a = a / 10;
 	  i++;
 	}	
-	if(avr / i > 7)
+	if(avr / i < 7)
 	{
 	  printf("light");
 	} else { printf("heavy"); }
