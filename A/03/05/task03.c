@@ -8,12 +8,11 @@ int main()
  scanf("%d",&n);
  scanf("%d",&m);
  scanf("%d",&k);
- for(r*m;i<=n;i++){
- 	sum=sum+m;
- if(i%k==0){
+ do{sum=sum+m;
+ if(i%k==0)
     m=m-r;
-   }
- }
+    i++;
+ }while(i<=n);
  printf("%d\n",sum);
 }
 
