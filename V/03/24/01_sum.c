@@ -8,8 +8,9 @@ int main(){
 		sum=sum+a;
 	}
 	avr=sum/n;
-        printf("Sum: %d\n",sum);
-	printf("Avg: %.2f\n",(float)avr);
+        printf("Sum: %d",sum);
+	printf("\nAvg: %.2f",(float)avr);
+	return 0;
 
 
 
