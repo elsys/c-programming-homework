@@ -2,16 +2,16 @@
 
 int main()
 {
-	int n, i, a, sum = 0;
-	float avr;
-	scanf("%d", &n);
+	int  i;
+	float avr, n, a, sum = 0;
+	scanf("%f", &n);
 	for(i = 0; i < n; i++)
 	{
-	  scanf("%d", &a);
+	  scanf("%f", &a);
 	  sum = sum + a;
 	}
 	avr = sum / n;
-	printf("Sum: %d\n", sum);
+	printf("Sum: %.0f\n", sum);
 	printf("Avg: %.2f", avr);
 	return 0;
 }
