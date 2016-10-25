@@ -11,6 +11,6 @@ int main()
 			sum=sum+m;
 		}
 	avg=sum/n;
-	printf("Sum=%d\n",sum);
-	printf("Avg=%.2f\n",avg);
+	printf("Sum: %d\n",sum);
+	printf("Avg: %.2f\n",avg);
 }
