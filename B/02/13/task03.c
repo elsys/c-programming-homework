@@ -3,7 +3,7 @@
 int main()
 {
 int a;
-do{
+
 scanf("%d",&a);
 
 switch(a){
@@ -29,6 +29,5 @@ case 9:printf("nine\n");
 break;
 default: printf("Your number is not corect.\n"); break;
 }
-}while(a<=9||a>=0);
 return 0;
 }
