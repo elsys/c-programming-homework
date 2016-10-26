@@ -1,25 +1,23 @@
 #include <stdio.h>
 int main()
 {
-        int n, p, x, y;
+        int n, p, x, y, i = 0, br = 0, h = 1;
         n = 0;
         p = 0;
         scanf("%d", &x);
-        for(y = 1; y < x - 1; y++)
+        do
         {
-        while(p < y * 2 - 1)
-        {
-          p++;
-          n++;
-        }
-        }
-        printf("%d\n", n);
+          br = br + h;
+          i++;
+          h = h + 2;
+        } while(i < x - 2);
+        printf("%d\n",br);
         for(p = 0; p < x - 1; p++)
         {
           printf(" ");
         }
         printf("*");
-        for(p = 0; y < x - 1; p++)
+        for(p = 0; p < x - 1; p++)
         {
           printf(" ");
         }
