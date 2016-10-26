@@ -1,8 +1,7 @@
 #include <stdio.h>
 int main()
 {
-        int n, p, x, y, i = 0, br = 0, h = 1;
-        n = 0;
+        int p, x, y, i = 0, br = 0, h = 1;
         p = 0;
         scanf("%d", &x);
         do
