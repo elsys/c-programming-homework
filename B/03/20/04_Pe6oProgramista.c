@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-	int i,n,k,t,j,a,space;
+	int i,k,t,a,space;
 	scanf("%d",&a);
 	printf("%d \n",(a-2)*(a-2));
 	space=a-1;
