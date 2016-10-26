@@ -8,10 +8,7 @@ int main()
     i='a';
     e='z';
     q=0;
-    do{
-    printf("vuvedi malka bukva:");
     scanf("%c",&a);
-    }while(a<'a' || a>'z');
     while(i<a)
     {
       i=i+1;
