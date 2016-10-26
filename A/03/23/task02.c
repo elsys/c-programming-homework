@@ -10,5 +10,5 @@ int main(){
 		i++;
 	}while(n!=0);
 	s=s/i;
-	if(s>7){printf("Heavy");}else{printf("Light");}
+	if(s>7){printf("heavy");}else{printf("light");}
 }
