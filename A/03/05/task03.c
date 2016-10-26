@@ -10,9 +10,8 @@ int main()
  scanf("%d",&k);
  do{sum=sum+m;
  if(i%k==0)
-    m=m-r;
-    i++;
+    m=m-(r*m);
+    i=i+1;
  }while(i<=n);
  printf("%d\n",sum);
 }
-
