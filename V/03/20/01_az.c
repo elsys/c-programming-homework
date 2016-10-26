@@ -1,16 +1,12 @@
 #include<stdio.h>
 int main(){
-
-int f, u=0, c, k;
-float avr=0;
-scanf("%d", &f);
-for(c=0;c<f;c++){
-scanf("%d", &k);
-u+=k;
-avr=u;
-}
-
-printf("u: %d\nAvg: %.2f", u, avr/f);
-
-return 0;
+	int n,s=0,i,p;
+	scanf("%d",&n);
+	for(i=0;i<n;i++){
+  		scanf("%d",&p);
+		s=s+p;
+	}
+        printf("Sum: %d\n",s);
+	printf("Avg: %.2f\n",(float)s/n);
+	return 0;
 }
