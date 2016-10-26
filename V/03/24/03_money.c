@@ -5,7 +5,7 @@ int main() {
 scanf("%d",&number);
 scanf("%d",&price);
 scanf("%d",&k);
-for (int i = 0; i < n; i=k+i)
+for (int i = 0; i < number; i=k+i)
 {
   if(i>=k){
     discount += 0.02*price;
