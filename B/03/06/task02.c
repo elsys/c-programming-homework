@@ -16,7 +16,10 @@ int main()
            a=a/10;
            avr = sum;
         }
-      if(avr = sum/i>7)	printf("heavy");
+	
+	avr=sum/i;
+
+      if(avr>7)	printf("heavy");
       else printf("light");
     };
 
