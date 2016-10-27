@@ -1,22 +1,24 @@
 #include <stdio.h>
-int main ()
+int main()
 {
-int n,r,l;
-float j,k;
-do 
-{
-scanf("%d", &n);
+int n,sum=0,i=0;
+
+do{
+scanf("%d",&n);
+}while(n<=0 || n>=10000);
+
+while(n!=0){
+sum=sum+n%10;
+n=n/10;
+i++;
 }
-while (n<=1 || n>=9999);
-l=0;
-for (j=0;n>0;n=n/10)
-{
-r=n%10;
-l++;
-j=j+r;
+
+if(sum/i>7){
+printf("heavy");
 }
-k=j/l;
-if (k<7) printf("light/n");
-if (k>7) printf("heavy/n");
+else{
+printf("light");
+}
+
 return 0;
-} 
+}
