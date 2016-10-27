@@ -16,7 +16,7 @@ l++;
 j=j+r;
 }
 k=j/l;
-if (k<7) printf("light");
-if (k>7) printf("heavy");
+if (k<7) printf("light/n");
+if (k>7) printf("heavy/n");
 return 0;
 } 
