@@ -3,15 +3,15 @@ int main()
 {
 int r,p,k,m,c,v;
 k=0;
-scanf("%d",&m);
+scanf("%d",&n);
 for(c=1;c<=m-2;c++)
 {
-k=k+c*2-1;
+k=k+i*2-1;
 }
 printf("%d\n",k);
 for(c=1;c<=m;c++)
 {
-for(v=0;v<m-c;v++)
+for(v=0;v<m-i;v++)
 {
 printf(" ");
 }
@@ -26,7 +26,7 @@ continue;
 printf("*");
 if(c>=2)
 {
-for(p=2;p<c*2-1;p++)
+for(p=2;p<i*2-1;p++)
 {
 printf("#");
 }
