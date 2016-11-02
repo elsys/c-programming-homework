@@ -11,7 +11,7 @@ n=n/10;
 n=n+1;
 }
 sredno=sredno/i;
-if (avr<7) printf("light");
-if (avr>7) printf("heavy");
+if (sredno<7) printf("light");
+if (sredno>7) printf("heavy");
 return 0;
 }
