@@ -17,7 +17,7 @@ int main() {
     int left_index = 0, right_index = n - 1;
     int result;
     while(left_index <= right_index) {
-        result = (odds[left_index] != odds[right_index]) ?
+        result = (left_index != right_index) ?
                     odds[left_index] - odds[right_index] :
                     odds[left_index];
 
