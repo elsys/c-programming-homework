@@ -8,7 +8,7 @@
 int main()
 {
   char orig, s;
-  scanf("%c",orig);
+  scanf("%c",&orig);
 
   s = 'z' - (orig - 'a');
 
