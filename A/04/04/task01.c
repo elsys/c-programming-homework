@@ -7,17 +7,17 @@ int main() {
     scanf("%d", &n);
 
     int arr[n];
-    for(int i = n - 1; i >= 0; i--) {
+    for(int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
 
-    print_elements(arr, n);
+    print_elements(arr, n - 1);
 
     return 0;
 }
 
 void print_elements(int* arr, int len) {
-    for(int i = 0; i < len; i++) {
+    for(int i = len; i >= 0; i--) {
         printf("%d\n", arr[i]);
     }
 }

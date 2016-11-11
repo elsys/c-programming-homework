@@ -15,7 +15,7 @@ void print_as_counter(char*, size_t);
 
 int main() {
     char seq[MAX_LEN];
-    fgets(seq, MAX_LEN - 1, stdin);
+    fgets(seq, MAX_LEN, stdin);
     size_t len = strlen(seq);
 
     convert_to_lowercase(seq, len);
