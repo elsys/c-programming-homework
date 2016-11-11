@@ -2,7 +2,6 @@
 
 const static int MAX_LEN = 64;
 
-
 int is_in_array(float, float*, int);
 float floatmod(float, float);
 float get_sum_of_remainders(float*, int);
