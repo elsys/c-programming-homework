@@ -6,7 +6,7 @@ int main()
 {
   float number[100];
   float n, sum = 0;
-  int i, count = 1,length = 0;  
+  int count = 1,length = 0;  
 
    while(scanf("%f", &n) != EOF)
    {
@@ -31,6 +31,7 @@ int main()
 float searching_value(float arr[], int n)
 {
   int i, j;
+  float total = 0;
   for(i = 0;i < n - 1; i++)
   {
 
@@ -39,9 +40,10 @@ float searching_value(float arr[], int n)
      if(arr[i] == arr[j])break;
      else if(j == n - 1)
      {
-       return arr[i];
-     }else return 0;
+       total = arr[i];
+     }
    }
   }
+ return total;
 }
 
