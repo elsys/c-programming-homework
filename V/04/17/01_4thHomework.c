@@ -17,15 +17,6 @@ int main () {
 	for(count = n-1; count >= 0; count--){
 		printf("%d\n",arr[count]);
 	}
-	/*for(count = 0; count < n; count++){
-		printf("\n%d",arr[count]);
-	}
-	*/
-
-
-
-
-
 
 return 0;
 }

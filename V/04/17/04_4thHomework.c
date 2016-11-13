@@ -36,19 +36,5 @@ int main () {
 	printf("%d\n",i);
 	printf("%.3f ", sum);
 	
-			
-	
-
-
-
-
-
-
-
-
-
-
-
-
 	return 0;
 }
