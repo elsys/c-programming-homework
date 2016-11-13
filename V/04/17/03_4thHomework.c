@@ -16,7 +16,7 @@ int main() {
 	int ind = -1;
 	int minus = 0;
 	
-	gets(str);
+	fgets(str,1000,stdin);
 	n = strlen(str);
 
 	for(count = 0; count < n; count++) {
