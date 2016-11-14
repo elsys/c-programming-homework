@@ -4,7 +4,7 @@
 int main()
 {
     int i,broi;
-    int a[180];
+    int a[200];
     scanf("%d",&broi);
     for(i=0;i<broi;i++){
         scanf("%d",&a[i]);
@@ -12,8 +12,7 @@ int main()
 
     for(i=broi-1;i>=0;i--){
         printf("\n%d",a[i]);
-    }	
-    printf("\n");
+    }
 
 return 0;
 }
