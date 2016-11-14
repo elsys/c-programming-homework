@@ -15,6 +15,6 @@ d='a';
 for(int ns=0;ns<30;ns++,d++){
 if(m[ns]==0)
 continue;
-printf("%c-%d\n", d, m[ns]);}
+printf("%c - %d\n", d, m[ns]);}
 return 0;
 }
