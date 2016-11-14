@@ -6,7 +6,7 @@ int main()
 	float num,sum,del;
 	while(scanf("%f", &num)!=EOF)
 	{
-		//match = 0;
+		
 		for(i=0;i<64;i++)
 		{
 			if(arr[i] == num)
@@ -32,7 +32,7 @@ int main()
 		sum+=del;
 	}
 	printf("%d\n", unmatch);
-	printf("%f", sum);
+	printf("%.3f", sum);
 
 
 
