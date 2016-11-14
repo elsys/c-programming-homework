@@ -30,5 +30,5 @@ int main() {
         sum += fmod(numbers[i], total);
     }
 
-    printf("%f\n", sum);
+    printf("%d\n%f\n", total, sum);
 }
