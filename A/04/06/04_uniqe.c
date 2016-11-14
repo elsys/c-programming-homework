@@ -1,10 +1,9 @@
 #include<stdio.h>
-#include<math.h>
 
 float get_remainder(float a, int b);
 
 int main(){
-    float numbs[64], temp, sum;
+    float numbs[64], temp, sum = 0;
     int count = 0, n6to = 0;
     for(int i = 0 ; i < 64 ; i ++)
         numbs[i] = 0;
