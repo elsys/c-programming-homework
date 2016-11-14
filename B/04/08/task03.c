@@ -7,12 +7,16 @@ int main()
   fgets(s,1000,stdin);
   while (s[a] != '\0')
    {
- 
+
+         
       if (s[a] >= 'a' && s[a] <= 'z') 
       {  
-       count[s[a]-'a']++;
+       count[s[a]-97]++;
       }
-      
+     else if(s[a]>='A' && s[a] <= 'Z')
+           {
+             count[s[a]-65]++;
+           }
       a++;
    }
     
