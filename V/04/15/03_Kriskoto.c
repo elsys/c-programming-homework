@@ -20,7 +20,7 @@ int main()
             sen[j] = '\0';
         }
     }
-    puts(sen);
+   // puts(sen);
 	
 	
   // char ch, out[1000];
