@@ -2,18 +2,22 @@
 
 int main()
 {
- int i, n, arr[100];
+ int i, n, a, arr[100];
  
  do{
    scanf("%d", &n);
  }while(n <= 0);
 
- for(i = 0; i < n; i++)
+ for(i = 0;i < n;)
  {
-  do{
-   scanf("%d", &arr[i]);
-  }while(arr[i] % 2 == 0);
+   scanf("%d", &a);
+   if(a % 2 != 0)
+   {
+     arr[i] = a;
+     i++;
+   }
  }
+ 
  
  for(i = 0; i < n/2; i++)
  {

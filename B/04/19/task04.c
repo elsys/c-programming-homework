@@ -1,49 +1,49 @@
 #include <stdio.h>
 
 float searching_value(float*, int);
+float summation(float*, int);
 
 int main()
 {
   float number[100];
-  float n, sum = 0;
-  int count = 1,length = 0;  
+  int length = 0;  
 
-   while(scanf("%f", &n) != EOF)
+   while(scanf("%f", &number[length]) != EOF)
    {
-    number[length] = n;
-    length++;
-    if(searching_value(number, length)){
-    count++;
-    if(count >= 64)break;
-    
-    float part = searching_value(number, length) - (int)searching_value(number, length);
-    int rest = (int)searching_value(number, length) % count;
-    sum = sum + rest + part;
-
-    }
+    if(length == 0)length++;
+    else if(number[length] == searching_value(number, length))
+         {
+           length++;
+           if(length >= 64)break;           
+         }
   }
   
-  printf(" %d\n%f",count ,sum);
-  
+  printf("%d\n%.3f", length, summation(number, length)); 
   return 0;
 }
 
 float searching_value(float arr[], int n)
 {
-  int i, j;
-  float total = 0;
-  for(i = 0;i < n - 1; i++)
-  {
+  int j;
 
-   for(j = i + 1;j < n; j++)
+
+   for(j = 0;j < n; j++)
    {
-     if(arr[i] == arr[j])break;
-     else if(j == n - 1)
-     {
-       total = arr[i];
-     }
-   }
-  }
- return total;
+     if(arr[n] == arr[j])break;
+     else if(n == j + 1) return arr[n];
+   } 
+ return 0;
 }
 
+float summation(float arr[], int n)
+{
+   int i;
+   float part, rest, sum = 0;
+   for(i = 0; i < n; i++)
+   {
+     part = arr[i] - (int)arr[i];
+     rest = (int)arr[i]%n;
+     sum = sum + rest + part;  
+   }
+  return sum;
+}
