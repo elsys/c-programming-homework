@@ -2,7 +2,7 @@
 #include<string.h>
 int main()
 {
-char c[1000],d,g;
+char c[1000],d;
 int m[30];
 for(int a=0;a<30;a++)
 m[a]=0;
