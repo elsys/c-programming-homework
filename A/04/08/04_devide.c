@@ -4,24 +4,29 @@ float floatmod(float, float);
 
 int main(){
   int i=0, n, m=0, c=0;
-  float a[1000] = {0}, b, sum = 0;
+  float a[1000][2] = {0}, b, sum = 0;
   while(scanf("%f", &b) != EOF){
     m=0;
     for(n = 0; n<i; n++){
-      if(b == a[n]) {
+      if(b == a[n][0]) {
       m = 1;
-      printf("sreshta se\n");
       }
     }
-    a[i] = b;
+    a[i][0] = b;
+    if(m==0){
+       c++;
+       a[i][1] = 1;
+    }
     i++;
-    if(m==0) c++;
   }
   /*for(n = 0; n<i; n++){
-    printf(" %f", a[n]);
+    printf("%f, ", a[n][0]);
+    printf("%f\n", a[n][1]);
   }*/
   for(n = 0; n<=i; n++){
-    sum += floatmod(a[n], c);
+    if(a[n][1] == 1){
+      sum += floatmod(a[n][0], c);
+    }
   }
   printf("%d\n", c);
   printf("%.3f", sum);
