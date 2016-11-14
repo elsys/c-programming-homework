@@ -12,10 +12,9 @@ int main()
             suma=suma+chislo;
         }
 
-    avr=suma/broi;
+    avr=((float)suma)/broi;
 
-    printf("Sum: %d\n", suma);
+    printf("Sum: %.0d\n", suma);
     printf("Avg: %.2f\n", avr);
     return 0;
 }
-
