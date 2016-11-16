@@ -14,7 +14,7 @@ if(n%2==0)
 		i++;
 		djordjano[a]=galena[j];
 		a++;
-		if(i=n-1)
+		if(i==n-1)
 		{
 		break;
 		}
@@ -38,7 +38,7 @@ if(n%2!=0)
                 i++;
                 djordjano[a]=galena[j];
                 a++;
-                if(i=n-1)
+                if(i==n-1)
                 {
                 break;
                 }

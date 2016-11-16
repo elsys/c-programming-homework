@@ -7,7 +7,6 @@ int s,i,j;
 char vurtoleta[1000];
 char galin[26]="abcdefghijklmnopqrstuvwxyz";
 char cvetelina[26]="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-char bukva;
 fgets(vurtoleta,1000,stdin);
 for(j=0;j<26;j++)
 for(s=0,i=0;s<strlen(vurtoleta)-1;s++)
