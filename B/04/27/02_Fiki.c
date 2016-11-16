@@ -1,0 +1,56 @@
+#include<stdio.h>
+int main()
+{
+int n,a,s,i=0,m,j,p,galena[10000],djordjano[10000];
+scanf("%d",&n);
+if(n%2==0)
+{
+	for(a=0;a<n;)
+	for(j=0;;j++)
+	{
+		scanf("%d",&galena[j]);
+		if(galena[j]%2!=0)
+		{
+		i++;
+		djordjano[a]=galena[j];
+		a++;
+		if(i=n-1)
+		{
+		break;
+		}
+		}	
+	}
+	for(m=n-1,s=0;;s++,m--)
+	{	
+		p=djordjano[s]-djordjano[m];
+		printf("%d\n",p);
+		if(m==s+1)break;
+	}
+}
+if(n%2!=0)
+{
+	for(a=0;a<n;)
+        for(j=0;;j++)
+        {
+                scanf("%d",&galena[j]);
+                if(galena[j]%2!=0)
+                {
+                i++;
+                djordjano[a]=galena[j];
+                a++;
+                if(i=n-1)
+                {
+                break;
+                }
+                }
+        }
+        for(m=n-1,s=0;;s++,m--)
+	{
+		p=djordjano[s]-djordjano[m];
+                printf("%d\n",p);
+		if(m==s+2)printf("%d",djordjano[s+1]);
+                if(m==s+2)break;
+        }
+}
+return 0;
+}
