@@ -2,6 +2,7 @@
 
 int main()
 {
+  
 float fst,scd,max;
 int i;
 scanf("%f",&fst);

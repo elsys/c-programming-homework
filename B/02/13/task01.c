@@ -2,10 +2,12 @@
 
 int main(){
 
-	int a;
+	int a; 
+	
 		scanf("%d",&a);
 		printf("%d\n",a*a);
 		printf("%d\n",a*a*a);
+	
 
 	return 0;
 	}
