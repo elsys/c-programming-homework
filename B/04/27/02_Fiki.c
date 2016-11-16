@@ -1,56 +1,21 @@
 #include<stdio.h>
 int main()
 {
-int n,a,s,i=0,m,j,p,galena[10000],djordjano[10000];
+int n,i=0;
 scanf("%d",&n);
-if(n%2==0)
+int masivche[n];
+for(i=0;i<n;i++)
 {
-	for(a=0;a<n;)
-	for(j=0;;j++)
-	{
-		scanf("%d",&galena[j]);
-		if(galena[j]%2!=0)
-		{
-		i++;
-		djordjano[a]=galena[j];
-		a++;
-		if(i==n-1)
-		{
-		break;
-		}
-		}	
-	}
-	for(m=n-1,s=0;;s++,m--)
-	{	
-		p=djordjano[s]-djordjano[m];
-		printf("%d\n",p);
-		if(m==s+1)break;
-	}
+	scanf("%d",&masivche[i]);
+	if(masivche[i]%2==0)i--;
 }
-if(n%2!=0)
+for(i=0;i<n/2;i++)
 {
-	for(a=0;a<n;)
-        for(j=0;;j++)
-        {
-                scanf("%d",&galena[j]);
-                if(galena[j]%2!=0)
-                {
-                i++;
-                djordjano[a]=galena[j];
-                a++;
-                if(i==n-1)
-                {
-                break;
-                }
-                }
-        }
-        for(m=n-1,s=0;;s++,m--)
-	{
-		p=djordjano[s]-djordjano[m];
-                printf("%d\n",p);
-		if(m==s+2)printf("%d",djordjano[s+1]);
-                if(m==s+2)break;
-        }
+	printf("%d\n",masivche[i]-masivche[(n-1)-i]);
 }
+if(n%2==1)
+{
+	printf("%d",masivche[(n / 2) + 1]);
+}	
 return 0;
 }

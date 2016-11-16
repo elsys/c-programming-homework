@@ -18,7 +18,7 @@ for(s=0,i=0;s<strlen(vurtoleta)-1;s++)
 	}
 		if(s==strlen(vurtoleta)-2)
                 if(i>0)
-                printf("%c-%d\n",galin[j],i);
+                printf("%c - %d\n",galin[j],i);
 }
 return 0;
 }
