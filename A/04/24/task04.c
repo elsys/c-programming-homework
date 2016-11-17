@@ -5,7 +5,11 @@ int main()
 {
 	float a[64],b,c=0;
 	int i=0,j,d;
+<<<<<<< HEAD
 	while((scanf("%f",&b))!=EOF)
+=======
+	while((scanf("%f",&b)!=EOF)
+>>>>>>> c25191fd3f62bbff1a44bd88d371c6cb5c225d2b
 	{
 		d=1;
 		for(j=0;j<i;j++)
