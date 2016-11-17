@@ -8,16 +8,12 @@ int arr[n];
 	}while(arr[k]%2==0);
 	k++;
 	}while(k<n);
-	k=0;
-	c=n-1;
-	do{
+	for(k=0,c=n-1;k<n/2;k++,c--){
 	o=arr[k]-arr[c];
 	printf("%d\n",o);
-	k++;
-	c--;
-	}while(k<n/2);
+	}
 	if(n%2!=0){
 	printf("%d\n",arr[n/2]);
 	}
 	return 0;
-	}		
+	}			
