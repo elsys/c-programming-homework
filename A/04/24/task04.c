@@ -19,6 +19,6 @@ int main()
 	{
 		c=c+fmod(a[j],5);
 	}
-	printf("%.3f",c);
+	printf("\n%.3f",c);
 	return 0;
 }
