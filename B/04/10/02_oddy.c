@@ -4,28 +4,27 @@
 
 int main()
 {
-  int n,k,i;
+  int n, k, i;
 
-  scanf("%d",&n);
+  scanf("%d", &n);
   int a[n];
 
-  for(i=0; i < n;scanf("%d",&a[i]),i++ ){
+  for (i = 0; i < n;) {
+    scanf("%d", &a[i]);
+    if ((a[i] % 2) != 0) {
 
-    if ( (a[i-1]%2)==0 )
-    {
-      i--;
+      i++;
     }
   }
 
-  for(i=0; i<(n/2); i++){
+  for (i = 0; i < (n / 2); i++) {
 
-    k = a[i]-a[n-1-i];
+    k = a[i] - a[n - 1 - i];
 
-    printf("%d \n",k);
+    printf("%d \n", k);
   }
-  if ( (n%2)!=0 )
-  {
-    printf("%d \n",a[n/2]);
+  if ( (n % 2) != 0 ) {
+    printf("%d \n", a[n / 2]);
   }
 
 
