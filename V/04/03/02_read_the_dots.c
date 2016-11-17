@@ -1,13 +1,12 @@
 #include<stdio.h>                           
 int main(){                                 
-int n,k=0,c;                                                                  
+int n,c,k;                                                                  
 scanf("%d",&n);
 int arr[n];                             
-	do{                                 
+	for(k=0;k<n;k++){                                 
 	do{scanf("%d",&arr[k]);			
 	}while(arr[k]%2==0);
-	k++;
-	}while(k<n);
+	}
 	for(k=0,c=n-1;k<n/2;k++,c--){
 	printf("%d\n",arr[k]-arr[c]);
 	}
