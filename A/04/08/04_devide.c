@@ -4,7 +4,7 @@ float floatmod(float, float);
 
 int main(){
   int i=0, n, m=0, c=0;
-  float a[1000][2] = {0}, b, sum = 0;
+  float a[1000][2] = {{0}}, b, sum = 0;
   while(scanf("%f", &b) != EOF){
     m=0;
     for(n = 0; n<i; n++){
