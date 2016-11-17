@@ -2,7 +2,7 @@
 #include <string.h>
 
  int main(){
- int n, i, c, j;
+ int i, c, j;
  char arr[1000];
  char mass1[26]="abcdefghijklmnopqrstuvwxyz";
  char mass2[26]="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
