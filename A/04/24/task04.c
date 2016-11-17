@@ -12,7 +12,7 @@ int main()
 		{
 			if(b==a[j]){d=0;break;}
 		}
-		if(d!0){a[i]=b;i++;}
+		if(d!=0){a[i]=b;i++;}
 	}
 	printf("\n%d",i);
 	for(j=0;j<i;j++)
