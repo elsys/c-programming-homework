@@ -13,18 +13,13 @@ int main()
 			i++;
 		}
 	}
-
+	for(int i = 0; i < n / 2; i++)
+	{
+		printf("%d\n", numbers[i] - numbers[n - 1 - i]);
+	}
 	if(n % 2 == 1)
 	{
 		printf("%d", numbers[n / 2]);
 	}
-	else
-	{
-		for(int i = 0; i < n / 2; i++)
-		{
-			printf("%d\n", numbers[i] - numbers[n - 1 - i]);
-		}
-	}
-
 	return 0;
 }
