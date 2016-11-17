@@ -18,7 +18,7 @@ int main()
 	while(i>j)
 	{
 		b=a[j]-a[i];
-		printf("\n%d",b;
+		printf("\n%d",b);
 		j++;
 		i--;
 		if(i==j)printf("\n%d",a[i]);

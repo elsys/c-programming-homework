@@ -5,7 +5,7 @@ int main()
 {
 	float a[64],b,c=0;
 	int i=0,j,d;
-	while((scanf("%f",&b)!=EOF)
+	while((scanf("%f",&b))!=EOF)
 	{
 		d=1;
 		for(j=0;j<i;j++)
