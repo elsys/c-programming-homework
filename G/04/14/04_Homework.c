@@ -1,32 +1,29 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <math.h>
 
-int main(){
-    float s=0, a[64]={0};
-    int count, i, c;
-    float n;
-    i=0;
-    while(scanf("%f", &n)!=EOF){
-        a[i] = n;
-        int j = 1;
-        c=0;
-        while(c<i){
-            if(a[c] == a[i])j = 0;
-            c++;
-        }
-        if(j)i++;
-    }
-      printf("%d\n", i);
-      count=0;
-      while(count<i){
-        if (a[count] >= i){
-        while(a[count] >= i ){
-        a[count] -= i;
-        }
-        count++;
+int main()
+{
+  int i, k, p=0, m;
+  float a[1000],nov[64], sum=0, del;
+  i=0;
+  while(scanf("%f", &a[i]) != EOF){
+    p++;
+    nov[i]=a[i];
+    for (m = 0; m < i; m++) {
+      if (a[i] == a[m] && i!=m) {
+        p--;
+        i--;
+        break;
       }
-          s += a[count];
-        }
-        printf("%.3f\n", s);
-    return 0;
+    }
+    i++;
+  }
+  k=0;
+  while(k<i){
+    del = fmod(nov[k],p);
+    sum = sum + del;
+    k++;
+    }
+  printf("%d\n%.3f", p, sum);
+  return 0;
 }
