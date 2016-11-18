@@ -4,19 +4,19 @@ int main()
 {
 	int n, i=0, a[100];
 	scanf("%d", &n);
-	do
+	while(i!=n)
 	{
 		scanf("%d", &a[i]);
 		if(a[i]%2)i++;
-	}while(i!=n);
+	}
 	i=0;
 	n--;
-	do
+	while(n>i)
 	{
-		printf("\n%d", a[i]-a[n]);
+		printf("%d\n", a[i]-a[n]);
 		i++;
 		n--;
-		if(i==n)printf("\n%d", a[n]);
-	}while(n>i);
+		if(i==n)printf("%d\n", a[n]);
+	}
 	return 0;
 }
