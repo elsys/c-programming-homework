@@ -1,15 +1,13 @@
 #include<stdio.h>
 int main()
 {
-	int i,flag,n=0,j;
+	int i=0,flag=1,n=0,j;
 	float sum=0,a,numbers[100];
-	for(i=0;scanf("%f",&a)!=EOF;i++)
+	while(scanf("%f",&a)!=EOF)
 	{
-		if(i==0) numbers[i]=a;
 		for(j=0;j<i;j++)
 		{
 			flag=1;
-			numbers[i]=a;
 			if(a==numbers[j])
 			{
 				flag=0;
@@ -17,13 +15,14 @@ int main()
 			}
 		}
 		if(flag==0) continue;
+		numbers[i]=a;
 		n++;
-		
+		i++;	
 	}
 	for(i=0;i<n;i++)
 	{
 		int tquot=numbers[i]/n;
 		sum+=numbers[i]-tquot*n;
 	}
-	printf("%d \n%f \n",n,sum);
+	printf("%d \n%.3f \n",n,sum);
 }
