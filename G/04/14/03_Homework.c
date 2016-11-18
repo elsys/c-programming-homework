@@ -1,38 +1,50 @@
 #include <stdio.h>
 #include <string.h>
-int main(){
-  int a[500];
-  char s[1000];
-  int i, n;
-  char z;
-  i=97;
-  while(i<=122){
-     a[i] = 0;
-     i++;
-  }
-  i=65;
-  while(i<=90){
-      a[i] = 0;
-      i++;
-  }
-  i=0;
-  while(i<1000){
-     s[i] = getchar();
-    if(s[i] == '\n'){
-      break;
-      i++;
-  }
-    n=s[i];
-    a[n]++;
-  }
-  i=97;
-  while(i<=122){
-    a[i] = a[i] + a[i- 32];
-    if(a[i] != 0){
-      z = i;
-      printf("%c - %d\n", z, a[i]);
-    }
-    i++;
-  }
-  return 0;
+
+int main ()
+{
+	char s[1000];
+	char b[27];
+	int i,q,oki,m,k;
+	fgets(s,1000,stdin);
+	i=0;
+	while(i<27){
+        b[i]=0;
+        i++;
+	}
+	q=strlen(s);
+	i=0;
+	k=0;
+	while(i<q)
+	{
+		oki=0;
+
+		if(s[i]>='a' && s[i]<='z')
+		{
+			k=s[i]-'a';
+		}
+		else if(s[i]>='A' && s[i]<='Z')
+		{
+			k=s[i]-'A';
+		}
+		else { oki=1; }
+		i++;
+
+	if(oki==0)
+	{
+		b[k]++;
+	}
+
+	}
+	i=0;
+	while(i<27){
+        if(b[i]!=0)
+		{
+			m='a'+i;
+			printf("%c - %d \n", m, b[i]);
+		}
+		i++;
+	}
+	return 0;
 }
+
