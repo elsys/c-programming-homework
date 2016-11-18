@@ -3,7 +3,7 @@
 
 int main(){
     char izr[1000], ts='a', tb='A';
-    int i, br=0, TEST=1;
+    int i, br=0;
     fgets(izr, 1000, stdin);
     for(;ts<='z' && tb<='Z';ts++, tb++){
         br=0;
