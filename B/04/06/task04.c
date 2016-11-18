@@ -15,7 +15,7 @@ int main ()
 		i++;	
 	}
 	
-	printf("%ф \n",a);
+	printf("%f \n",a);
 
 	for(i=0;i<b;i++){
 		while(arr[i]>=0){
