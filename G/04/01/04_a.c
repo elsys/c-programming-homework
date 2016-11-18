@@ -22,7 +22,7 @@ for(i=0;i<br;i++){
     ostatuk =Search[i]-((int)Search[i]/br)*br ;
     sum = sum + ostatuk;
 }
-printf("\n%d",br);
-printf("\n%f\n",sum);
+printf("%d\n",br);
+printf("%.3f\n",sum);
 return 0;
 }
