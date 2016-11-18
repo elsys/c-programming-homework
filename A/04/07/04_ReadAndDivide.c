@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<math.h>
 int main(){
     int br = 0, is = 0, i;
     float arr[64], tmp, sum = 0;

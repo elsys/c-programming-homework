@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<string.h>
 
 int main(){
     char izr[1000], ts='a', tb='A';
