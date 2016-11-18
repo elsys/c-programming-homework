@@ -23,6 +23,6 @@ for(i=0;i<br;i++){
     sum = sum + ostatuk;
 }
 printf("\n%d",br);
-printf("\n%f",sum);
+printf("\n%f\n",sum);
 return 0;
 }
