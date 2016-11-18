@@ -11,7 +11,7 @@ int main()
 	if(arr[i]%2) i++;
 	}
 	i=n-1;
-	while(arr[j]<arr[i])
+	while(j<i)
 	{
 		res=arr[j]-arr[i];
 		printf("%d\n",res);
