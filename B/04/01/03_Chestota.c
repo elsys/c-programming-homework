@@ -16,7 +16,7 @@ int main()
         {
                 if(cnt[j] != 0)
                 {
-                        printf("%c  -  %d\n", j + 'a', cnt[j]);
+                        printf("%c - %d\n", j + 'a', cnt[j]);
                 }
         }
 
