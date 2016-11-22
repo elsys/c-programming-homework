@@ -12,9 +12,9 @@ int main(){
 	  }
 	m = m/i;
 	if(m > 7){
-		printf("heavy");
+		printf(" heavy\n");
  	}else{
-		printf("light");
+		printf(" light\n");
 	}
 	return 0;
 }
